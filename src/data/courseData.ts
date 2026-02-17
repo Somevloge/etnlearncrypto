@@ -420,7 +420,822 @@ export const courseData: Module[] = [
   },
   {
     id: 2, icon: "Bitcoin",
-    en: { title: "Beginner's Guide to Bitcoin", description: "Understanding Bitcoin, like what it is, where it came from, and how it works provides a solid foundation for being able to navigate the entire crypto space.", lessons: [] },
+    en: {
+      title: "Beginner's Guide to Bitcoin",
+      description: "Understanding Bitcoin, like what it is, where it came from, and how it works provides a solid foundation for being able to navigate the entire crypto space.",
+      lessons: [
+        {
+          title: "What is Bitcoin?",
+          subtitle: "Bitcoin is known as the original cryptocurrency. The first of its kind.",
+          content: `
+<h1>What is Bitcoin?</h1>
+
+<p>Depends on who you ask. If it's Warren Buffet, he'd say it's "probably rat poison squared". (But then invests in a digital bank that focuses on crypto.)</p>
+
+<p>Unless you've been living under a rock or never leave your sofa and just binge-watch Netflix shows all day long, you've probably heard of bitcoin.</p>
+
+<p>Bitcoin is known as the original cryptocurrency.</p>
+
+<p>The first of its kind.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17161513/bitcoin-first-cryptocurrency-360x257.png" alt="Bitcoin first cryptocurrency" />
+
+<p>Bitcoin is a new kind of "money", a digital currency that's designed to let you store, send, and receive "money" online without any banks or other financial institutions.</p>
+
+<p>Unlike fiat currencies, such as the U.S. dollar or the British pound, Bitcoin is not controlled by any central bank or government. Instead, rules that govern its use and supply are controlled by software.</p>
+
+<p>In 2008, Bitcoin was created by a mysterious person calling himself, "Satoshi Nakamoto".</p>
+
+<p>To this day, his true identity remains anonymous. Nobody knows (at least publicly) who Satoshi Nakamoto is.</p>
+
+<p>Since he's the creator of Bitcoin, I also like to call Satoshi Nakamoto the "Bitcoin God".</p>
+
+<img src="https://bpcdn.co/images/2022/02/16174359/bitcoin-god.png" alt="Bitcoin God" />
+
+<p>The Bitcoin God could be a man, woman, group of people, or even a highly intelligent space alien. Nobody knows!</p>
+
+<p>What we do know is that on Halloween (October 31) in 2008, Satoshi Nakamoto published a whitepaper titled "Bitcoin: A Peer-to-Peer Electronic Cash System" (downloadable PDF. For a web version of the whitepaper on Bitcoin.com, click here).</p>
+
+<p>It was a 12-page summary of the Bitcoin God's creation. The whitepaper provided a technical overview of Bitcoin and described how it would all work operationally.</p>
+
+<p>A whitepaper is a document written by a creator(s) of a crypto project that explains the project's purpose and provides technical information regarding its underlying technology.</p>
+
+<p>In early January 2009, the first version of Bitcoin software, version 0.1, was released on an obscure mailing list.</p>
+
+<p>The software controls the creation and use of bitcoins and imposes a fixed supply of 21 million. Bitcoins are created through a process called "mining" which now involves specialized computers competing to win a number-guessing game where the winning "miner" is rewarded with brand new bitcoins.</p>
+
+<p>Over 19 million of those have been created (or "mined") so far with the last bitcoin expected to be mined in 2140.</p>
+
+<p>Bitcoin's fixed supply is in contrast to traditional fiat currencies, such as the U.S. dollar, which can be created at will and in unlimited quantities by central banks.</p>
+
+<p>Bitcoin devotees believe that since there is a limit on the number of bitcoins that will ever exist, this scarcity is where Bitcoin gets its value.</p>
+
+<p>Satoshi Nakamoto made Bitcoin's source code open to the public and encouraged others to continue developing Bitcoin.</p>
+
+<p>Open source software means the source code is not proprietary. Any developer can view the source code and modify it.</p>
+
+<p>Over time, the original source code was then refined by other software developers, many of whom worked voluntarily similar to the volunteers that write and edit the pages of Wikipedia.</p>
+
+<p>In late April 2011, Satoshi Nakamoto sent one of the software developers a brief email saying, "Yo! I'm out!"</p>
+
+<p>Just kidding, The real message was, "I've moved on to other things."</p>
+
+<p>And then he disappeared, never to be heard from again.</p>
+
+<img src="https://bpcdn.co/images/2022/03/23155811/satoshi-nakamoto-exits-360x360.png" alt="Satoshi Nakamoto exits" />
+
+<p>And the rest is history.</p>
+
+<p>Wait. What? He/she/they/it just bounced?!</p>
+
+<p>Yep.</p>
+
+<p>Satoshi Nakamoto ghosted the Bitcoin community!</p>
+
+<p>I don't know how it feels to be ghosted but I'm sure some of y'all do and I'm sure it feels horrible.</p>
+
+<p>But it's all good though, the disappearance of its creator wasn't fatal to Bitcoin.</p>
+
+<p>After more than a decade, Bitcoin continues to run strong, allowing users from around the world to transact in bitcoins with each other.</p>
+
+<p>The first known exchange rate for bitcoin was in October 2009. With $1, you could buy 1,309 bitcoins!</p>
+
+<p>It wasn't until February 2011 that the price of bitcoin reached parity with the U.S. dollar, where $1 = 1 bitcoin.</p>
+
+<p>As confidence in Bitcoin grew, so did the demand for the cryptocurrency, which increased its price.</p>
+
+<p>In 2013, bitcoin went from $13 to $1,157! A gain of 8,800%!</p>
+
+<p>In 2017, probably when Bitcoin finally lost its status as an "underground" currency, started the year at $1,000 and almost hit $20,000...before crashing hard.</p>
+
+<p>But Bitcoin has proven that it's hard to kill.</p>
+
+<p>In November 2021, bitcoin's price reached an all-time high of over $68,000.</p>
+
+<p>Then plummeted back to below $16,000. And then bottomed and made a higher all-time high of over $75,000 in March 2024!</p>
+
+<p>A couple of months later, after Donald Trump won the U.S. presidential election, crypto mania returned and pushed bitcoin above $90,000!</p>
+
+<p>On December 4, 2024, bitcoin smashed through the $100,000 barrier!</p>
+
+<p>In summary, here are the price milestones that bitcoin has reached over the years:</p>
+
+<ul>
+<li>February 10, 2011: $1</li>
+<li>March 31, 2013: $100</li>
+<li>November 28, 2013: $1,000</li>
+<li>November 29, 2017: $10,000</li>
+<li>December 04, 2024: $100,000</li>
+</ul>
+
+<p>What's crazy is that Satoshi Nakamoto still owns over 1 million bitcoins! But while the Bitcoin God is now a bazillionaire, becoming rich wasn't the reason for creating Bitcoin.</p>
+
+<img src="https://bpcdn.co/images/2022/08/10155512/satoshi-nope-360x360.png" alt="Satoshi Nope" />
+
+<p>In the next lesson, you'll learn the actual reasons why Bitcoin was made.</p>
+`
+        },
+        {
+          title: "Why Was Bitcoin Created?",
+          subtitle: "Rather than go technical, let's start with the PROBLEMS that Bitcoin was trying to solve.",
+          content: `
+<h1>Why Was Bitcoin Created?</h1>
+
+<h2>What exactly is Bitcoin?</h2>
+
+<p>Depending on who you ask, the word "Bitcoin" can have many different definitions.</p>
+
+<p>And as some start explaining what Bitcoin is, that's when you'll typically start hearing tech jargon spewed out.</p>
+
+<p>Words like "blockchain" and "protocol". And phrases like "peer-to-peer networks" and "distributed ledgers".</p>
+
+<img src="https://bpcdn.co/images/2022/02/16200543/bitcoin-jargon-360x353.png" alt="Bitcoin jargon" />
+
+<p>OMG! Jargon overload!</p>
+
+<p>It's easy to feel like you're drowning in a sea of terms. Trying to accurately describe "Bitcoin" can get technical and complicated really fast!</p>
+
+<p>So rather than go that route, I think a better approach is to start with the PROBLEMS that Bitcoin was trying to solve.</p>
+
+<p>Once you understand that, everything will become much clearer for you and you'll be able to grasp the technical concepts faster and follow along much more easily.</p>
+
+<h2>Why was Bitcoin created?</h2>
+
+<p>According to the Bitcoin white paper, Satoshi Nakamoto wanted to create:</p>
+
+<p>"...electronic cash that would allow online payments to be sent directly from one party to another without going through a financial institution."</p>
+
+<p>Translation:</p>
+
+<p>"Physical cash allows me to transact directly in the REAL WORLD with another person without the need of a bank. I like this freedom. I want this same freedom ONLINE. So I need a digital version of cash or digital cash."</p>
+
+<p>Satoshi's answer: Bitcoin.</p>
+
+<p>The concept of creating a digital version of cash that can be sent around online without a "trusted intermediary" sounds simple but before Satoshi Nakamoto created Bitcoin, all previous attempts were unsuccessful.</p>
+
+<p>This had never been done before.</p>
+
+<p>Let me explain why using an example.</p>
+
+<p>Let's say that Ursula the Unicorn bakes and sells cupcakes.</p>
+
+<img src="https://bpcdn.co/images/2022/02/16203447/ursula-the-baker.png" alt="Ursula the baker" />
+
+<p>These cupcakes are special. They sing. They're waterproof.</p>
+
+<p>They are singing waterproof cupcakes!</p>
+
+<img src="https://bpcdn.co/images/2022/02/16204226/singing-cupcake.png" alt="Singing cupcake" />
+
+<p>And each cupcake only cost $1. With air delivery, via unicorn, included for free.</p>
+
+<p>Molly the Mermaid wants to buy one cupcake from Ursula.</p>
+
+<p>So they meet up and transact with cold hard cash.</p>
+
+<img src="https://bpcdn.co/images/2019/02/26191559/cash-transaction1.png" alt="Cash transaction" />
+
+<p>Here's what happens:</p>
+
+<ul>
+<li>Molly gives the $1 bill to Ursula.</li>
+<li>The $1 bill is now physically owned by Ursula.</li>
+<li>Ursula trusts that the $1 bill is unique and real.</li>
+<li>The $1 bill is unique and real because it can be verified since it's issued by a central bank.</li>
+<li>Due to these properties, the $1 bill is used as a medium of exchange...meaning other people are willing to exchange the $1 bill for stuff ("goods and services") they want.</li>
+<li>Ursula gives the cupcake to Molly.</li>
+</ul>
+
+<p>Now let's say that Molly is soooo far away that the distance would be even way too far for even Ursula to fly and deliver the cupcake herself. She'll have to ship it via an air courier service like FedEx or UPS.</p>
+
+<p>Ursula wants Molly to send payment first....online.</p>
+
+<p>But how will Molly handle payment?</p>
+
+<p>How can Molly send cash over the internet?</p>
+
+<img src="https://bpcdn.co/images/2022/02/16212319/digitize-cash-1.png" alt="Digitize cash" />
+
+<p>There lies the problem with cash.</p>
+
+<p>Cash is money in the PHYSICAL form of currency, such as paper banknotes (dollah dollah billz yo!) and metal coins.</p>
+
+<p>But we have a problem....</p>
+
+<p>You can't send physical cash over the internet!</p>
+
+<p>Buyers and sellers have to be physically present at the same location in order to transact in cash, which isn't always possible.</p>
+
+<img src="https://bpcdn.co/images/2022/02/16213224/face-to-face-transaction.png" alt="Face to face transaction" />
+
+<p>Since cash is physical, how do you transfer it online?</p>
+
+<p>By digitizing it...by making it digital.</p>
+
+<p>But if it's digital, that means it can be easily reproduced (digital counterfeit).</p>
+
+<p>So how do you prevent people from spending their digital money twice (or more)?</p>
+
+<p>So that's one problem.</p>
+
+<p>There's another problem.</p>
+
+<p>Molly wants to use cash because she already has some in her wallet. But if she wants to send cash electronically (in digital form), now she has to rely on a financial institution like a bank.</p>
+
+<p>But what if Molly didn't have an account with a bank? Sorry Molly, no cupcakes for you then.</p>
+
+<p>Fortunately, in this story, Molly does have a bank account.</p>
+
+<p>But when we're dependent on such financial institutions, this poses a threat or risk.</p>
+
+<p>For example, let's say the greedy sharks who run the bank love cookies and hate cupcakes.</p>
+
+<img src="https://bpcdn.co/images/2022/02/16210226/shark-banker-263x360.png" alt="Shark banker" />
+
+<p>So the bank, not being a fan of cupcakes, may abuse its power and decide to block Molly's transaction. The bank will not allow any transactions related to cupcakes!</p>
+
+<p>Say what?! Heartless I tell you!</p>
+
+<p>Or the bank may charge extra fees for non-local transactions.</p>
+
+<p>Or even worse, the bank sees unicorns as evil, along with anybody who does business with unicorns as automatically evil also.</p>
+
+<p>So even though Molly is a mermaid, she's seen as "evil" because she's trying to buy cupcakes from a unicorn!</p>
+
+<p>As a result, the bank may freeze Molly's account and now Molly can't even access her money. Molly the Mermaid is locked out!</p>
+
+<p>The bank is holding Molly's money hostage. The bank is the single entity in control of all of her money. Since there is a single entity in charge, this is considered centralized.</p>
+
+<p>"Centralized" means one point or source of control.</p>
+
+<img src="https://bpcdn.co/images/2019/02/26200955/bank-censorship.png" alt="Bank censorship" />
+
+<p>Molly just wants her cupcake and is frustrated.</p>
+
+<p>"If I were able to use cash, I wouldn't have to go through my bank! Gosh, darn it! This sucks!"</p>
+
+<p>"I wish a digital form of cash existed."</p>
+
+<p>"That I'm in total control of."</p>
+
+<p>"I want to be able to use this digital form of cash just like the cold hard cash in my tail where I can spend it however I want with whoever I want without needing the approval of any person, company, or institution."</p>
+
+<p>So Molly basically wants two big things:</p>
+
+<ul>
+<li>Digital money that can be used online like cash....</li>
+<li>That is decentralized.</li>
+</ul>
+
+<p>Decentralization is the exact opposite of centralization. With decentralization, there is not one single entity in charge. Decentralized is where control and decision-making is shared among participants.</p>
+
+<p>In terms of money, "decentralization" means that you don't have to go through an intermediary like a bank or other financial institution.</p>
+
+<p>This would give you the freedom to spend digital money any way you please without the risk of your transactions being blocked or your money being frozen or taken away from you.</p>
+
+<p>Molly wants decentralized digital cash.</p>
+
+<p>But this is actually extremely difficult to accomplish!</p>
+
+<p>Let's learn why...</p>
+`
+        },
+        {
+          title: "What Problems Did Bitcoin Solve?",
+          subtitle: "What makes Bitcoin so revolutionary? Why is it often hailed as a game-changer in the world of money?",
+          content: `
+<h1>What Problems Did Bitcoin Solve?</h1>
+
+<p>What makes Bitcoin so revolutionary?</p>
+
+<p>Why is it often hailed as a game-changer in the world of money?</p>
+
+<p>As mentioned in an earlier lesson, a mysterious figure who called himself, Satoshi Nakamoto authored a white paper titled, Bitcoin: A Peer-to-Peer Electronic Cash System.</p>
+
+<p>The paper revealed details of creating "electronic cash" (digital currency) free of control from any organization or government.</p>
+
+<p>During Satoshi Nakamoto's research though, he discovered there have been multiple attempts in the past to create a digital currency.</p>
+
+<p>There were early pioneers such as b-money, Bit Gold, ecash, E-gold, Hashcash, Liberty Reserve, and RPOW. But they didn't work out for two main reasons:</p>
+
+<ul>
+<li>Centralization. These digital currencies were controlled by a central authority which introduced a single point of failure. Having centralized control also created other types of risk. An entity in control could decide to do something shady like create secret amounts of additional money for personal use. Or the system gets hacked and users' money gets stolen, or the government forces the entity to shut down which means everybody's money is now worthless.</li>
+<li>Double Spending. There wasn't a foolproof way to know whether the currency was being duplicated or double-spent (the digital version of counterfeiting money).</li>
+</ul>
+
+<p>So even before Bitcoin was a twinkle in Satoshi's eye, several attempts have been made to create decentralized electronic money, or digital cash, in the past, but they all failed.</p>
+
+<p>For a while, it seemed impossible.</p>
+
+<p>Unlike a photo, PDF, or other documents, you can't simply attach some money to an email and send it to someone.</p>
+
+<p>Why?</p>
+
+<p>Because whenever you do a transfer of VALUE between two people, you need to make sure that a real transfer has taken place.</p>
+
+<p>For example, let's say you ran into the Gingerbread Man and were able to get a photo of it.</p>
+
+<img src="https://bpcdn.co/images/2022/02/16222811/gingerbread-photo.png" alt="Gingerbread photo" />
+
+<p>You want to buy the photo from me so nobody else can have it.</p>
+
+<p>If I send the original digital photo to you, I can simply attach the photo to a text message and send it.</p>
+
+<p>You will receive the photo.</p>
+
+<p>But now, there are TWO copies of the photo. The one attached to the text message and the original file that I have stored on my computer.</p>
+
+<p>What has happened is that I've sent you a COPY of the file of the photo, not the original file.</p>
+
+<p>When it comes to sending digital photos, this may not be a big deal (unless you're a celebrity who loves to take nude selfies and your phone gets hacked).</p>
+
+<p>But when it comes to sending digital MONEY, this is a very big deal.</p>
+
+<p>Let's return to the cash transaction example involving Molly the Mermaid and Ursula the Unicorn from the previous lesson.</p>
+
+<img src="https://bpcdn.co/images/2019/02/26191559/cash-transaction1.png" alt="Cash transaction" />
+
+<p>Imagine if Molly scanned her one-dollar bill and named the digital image, "one-dollar.jpg".</p>
+
+<img src="https://bpcdn.co/images/2019/02/26203544/scan-money.png" alt="Scan money" />
+
+<p>When something is in digital form, it's easy to copy and duplicate it...as many times as you want.</p>
+
+<p>Where is the value in that?!</p>
+
+<p>Molly can create an infinite number of digital copies of "one-dollar.jpg" and spend it as many times as she wants.</p>
+
+<p>This issue is known as the "double spend" problem.</p>
+
+<img src="https://bpcdn.co/images/2019/02/26204704/digital-transaction.png" alt="Digital transaction" />
+
+<p>And if multiple people own the same exact "one-dollar.jpg" image file, then....who is the actual owner?</p>
+
+<img src="https://bpcdn.co/images/2019/02/26205754/double-spending.png" alt="Double spending" />
+
+<p>If you're trying to spend money digitally, how can you prove that the money transferred is really gone from its original place? That there was an actual change in ownership?</p>
+
+<p>If Molly gives Ursula $1, how can Molly prove that she wasn't then going to give the same $1 to somebody else?</p>
+
+<p>When it comes to digital payments, the net value of all transfers needs to be equal to $0. For example, when Ursula sends $1 to Molly, Ursula should lose $1, and Molly should gain $1.</p>
+
+<p>Before Bitcoin, the only way to send money electronically was through a bank or a payment company like PayPal. (And as mobile phone usage grew, fintech mobile apps like Venmo or M-Pesa.)</p>
+
+<p>Basically, we had to rely on a central authority.</p>
+
+<img src="https://bpcdn.co/images/2019/02/26205754/double-spending.png" alt="Double spending problem" />
+
+<p>Here's what happens:</p>
+
+<ul>
+<li>Molly starts with $1 in her account, and Ursula has $0.</li>
+<li>Molly tells the bank to transfer $1 to Ursula.</li>
+<li>The bank adjusts Molly's and Ursula's account balances.</li>
+<li>Molly's and Ursula's account balances exist as numbers on a computer.</li>
+<li>Molly and Ursula trust the bank to keep their bank account balances up-to-date and accurate.</li>
+</ul>
+
+<p>If you noticed, there is no physical cash changing hands.</p>
+
+<p>Instead of the physical $1 bill, Ursula and Molly rely on the bank to do a digital transaction on their behalf.</p>
+
+<h2>What is a ledger?</h2>
+
+<p>The bank keeps track of the accounts of both buyer and seller.</p>
+
+<p>How does a bank keep track of its account balances?</p>
+
+<p>The bank uses a ledger.</p>
+
+<img src="https://bpcdn.co/images/2019/02/27125657/bank-ledger.png" alt="Bank ledger" />
+
+<p>The ledger serves two functions:</p>
+
+<ul>
+<li>The ledger serves as a method for proving ownership, which is done by reading historical data preserved in the ledger.</li>
+<li>The ledger documents any transfer of ownership, which means that new data is produced and written to the ledger.</li>
+</ul>
+
+<p>In a traditional bank transaction, when Molly sends a payment to Ursula, the central authority (the bank) looks at the ledger to make sure that Molly has the funds and then decreases Molly's bank account balance and increases Ursula's bank account balance.</p>
+
+<p>Basically, for electronic (non-physical) transfers of money, you need a recordkeeping system.</p>
+
+<p>That's what the ledger does. It keeps a record of transactions.</p>
+
+<p>In this example, the ledger recorded that Molly transferred $1 (unit of currency) to Ursula. And now Molly has $0.</p>
+
+<img src="https://bpcdn.co/images/2019/02/27131315/bank-payment-with-ledger.png" alt="Bank payment with ledger" />
+
+<p>This prevents the double spending problem.</p>
+
+<img src="https://bpcdn.co/images/2019/02/27143438/bitcoin-99-problems.png" alt="Bitcoin 99 problems" />
+
+<p>For online transactions, without these intermediaries, we could theoretically just "copy and paste" money and it'd be impossible to know which transactions were legit or fraudulent.</p>
+
+<p>While relying on central authorities or intermediaries solves the "double spending" problem, this requires you to TRUST them.</p>
+
+<p>Double spending is the process of making two payments with the same funds in order to deceive the recipient of those funds. With physical currency, this isn't possible. You can't give two people the same $5 bill. With online payments, you must trust a third-party to make sure funds are sent and received properly.</p>
+
+<p>Banks, credit card companies, and payment processors validate the transactions themselves and minimize the risk of double spending.</p>
+
+<p>For example, you must trust that your bank maintains your account balances in their ledger accurately and they don't run off with your money or allow governments to confiscate your money.</p>
+
+<p>Your transaction could also potentially be "censored" by the government, where the bank is pressured to block or reject transactions for political or other reasons.</p>
+
+<p>Having to rely on and trust banks and other third parties are known as the centralization problem.</p>
+
+<p>So to quickly summarize, we currently have two problems with digital money:</p>
+
+<h2>PROBLEM #1: Double Spending</h2>
+
+<p>The risk of someone being able to spend digital money twice (or more) since anything in digital format can be easily duplicated. This new amount of currency that didn't previously exist is also known as counterfeit or fraudulent money.</p>
+
+<h2>PROBLEM #2: Centralization</h2>
+
+<p>In order to solve the "double spending" problem, you have to rely on a third party to maintain and keep track of the change in ownership of funds. But this exposes you to the risk of your digital money being stolen, confiscated, frozen, or blocked by the third party. You lose control or ownership of your money.</p>
+
+<p>Satoshi Nakamoto figured out how to solve both problems!</p>
+
+<img src="https://bpcdn.co/images/2019/02/27142913/bitcoin-problems.png" alt="Bitcoin problems" />
+
+<p>Allowing money to move the way text messages or emails do between any two people and without any central intermediary requires a unique solution.</p>
+
+<p>Satoshi's solution created a NEW way to use money in a digital form that is counterfeit-proof and can be sent directly from one person to another ("peer-to-peer") without having to go through a financial institution.</p>
+
+<p>No more banks or other intermediaries. No more need to ask permission or get approval from them if you want to transfer money.</p>
+
+<p>But how?</p>
+
+<p>How the heck do you prevent double spending of digital money if you do NOT have a central authority, like a bank, maintaining a ledger and keeping track of who owns what?</p>
+
+<p>Who then maintains the accuracy of the ledger?</p>
+
+<p>Well, if you don't want to rely on traditional financial institutions, you have to start from scratch and create a totally new SYSTEM.</p>
+
+<p>If you want to skip the bank entirely, you need a new system for tracking value and the transferring of value from one person to the next.</p>
+
+<p>Not wanting to rely on banks or governments means you can NOT be part of any existing financial system.</p>
+
+<p>Why?</p>
+
+<p>Because the money used in existing financial systems is based on conventional currency, also known as "fiat money" such as dollars, euros, yen, pounds, and pesos. And all of these currencies are controlled by their governments which means they are all CENTRALIZED.</p>
+
+<p>That's exactly what Satoshi Nakamoto wanted to avoid. He didn't want to rely on a central authority or administrator to manage the ledger.</p>
+
+<p>This means that the system needed to be able to be operated by anyone, without the need to gain permission from some kind of gatekeeper.</p>
+
+<p>The Bitcoin God wanted to use digital money that is DECENTRALIZED.</p>
+
+<p>This decentralization would allow it to be a global form of money, meaning money that transcends national boundaries or governments.</p>
+
+<p>It would be able to operate outside of any government regulation and central banks, which means it is not under the control of any single person or organization.</p>
+
+<p>It would be global, state-free money.</p>
+
+<p>This would allow anyone to make online payments to anyone, anywhere in the world at any time.</p>
+
+<p>If this money had a slogan, it would be this:</p>
+
+<p>"Regardless of where you live in the world, you can spend your money whenever you want on whatever you want with whomever you want."</p>
+
+<p>Nobody, no company, no authority, no government could stop the transaction. (This is also known as being "censorship-resistant".)</p>
+
+<p>Satoshi Nakamoto basically wanted an online currency for the internet that would function just like physical cash ("digital cash"), that could NOT be controlled by anyone.</p>
+
+<p>So what did he do?</p>
+
+<p>He went to work to create a brand new system that would do just that.</p>
+
+<img src="https://bpcdn.co/images/2019/02/27144623/bitcoin-vs-banking-systems.png" alt="Bitcoin vs banking systems" />
+
+<p>This new system would be designed to manage the ownership and creation of its own unit of currency.</p>
+
+<p>This new SYSTEM would allow anybody with an internet connection to send, receive, and store this "digital currency."</p>
+
+<p>This currency would exist independently from any government, central bank, or other financial institution.</p>
+
+<p>This new system would be an alternative to the traditional financial system, which is built around banks.</p>
+
+<p>Since there are no banks, you would not need a bank account. All you would need is a "wallet" which anyone can create. (I'll discuss wallets in a later lesson.)</p>
+
+<img src="https://bpcdn.co/images/2019/02/27155900/fiat-vs-bitcoin1.png" alt="Fiat vs Bitcoin" />
+
+<p>Although many of the concepts and technologies underlying Bitcoin already existed in 2008, no one had ever put all the pieces together.</p>
+
+<p>Satoshi Nakamoto took components from the previous attempts of creating decentralized digital cash and was able to combine them in a new and original way.</p>
+
+<p>This new system was basically a successful Frankenstein of different technical innovations he borrowed from earlier attempts at cryptocurrencies and electronic cash in the decades before Bitcoin was launched.</p>
+
+<img src="https://bpcdn.co/images/2022/03/17103252/bitcoin-name.png" alt="Bitcoin name" />
+
+<p>Satoshi Nakamoto named this system, Bitcoin.</p>
+
+<h2>Bitcoin vs. bitcoin?</h2>
+
+<p>What's the difference between uppercase "B" and lowercase "b" in Bitcoin?</p>
+
+<p>Bitcoin (capital "B") is the system that automatically manages the ownership and creation of its own digital units of currency called bitcoins (lowercase "b").</p>
+
+<p>As a Bitcoin user, you'd say that you have a certain amount of "bitcoins", similar to how you'd say you have a certain amount of British "pounds", Nigerian "naira", Indian "rupees", or U.S. "dollars".</p>
+
+<p>"BTC" has been the generally accepted currency code for bitcoin. So 1 bitcoin = 1 BTC.</p>
+
+<p>One bitcoin is divisible to eight decimal places. So it's possible to own 0.00000001 BTC.</p>
+
+<p>Think of "Bitcoin" (capital "B") as the brand name for the new system (or concept) that Satoshi Nakamoto created to move "money" around on the internet. And that "money" is denominated NOT in "dollars" or "euros" but in its own unit of account called "bitcoins".</p>
+
+<p>Why he would name the currency (lowercase "b") as the same name as the system itself makes it obvious that he never worked in marketing. But at least now YOU know the difference!</p>
+
+<p>There are several components that make the whole Bitcoin system work, so whenever I'm talking about a specific component of the Bitcoin system, I will use "Bitcoin" (capital "B"). For example, "Bitcoin wallet".</p>
+
+<p>The entire Bitcoin system is run by software that Satoshi Nakamoto created.</p>
+
+<img src="https://bpcdn.co/images/2019/02/27173422/bitcoin-code.png" alt="Bitcoin code" />
+
+<p>The Bitcoin system creates bitcoins and keeps track of the change of ownership of bitcoins.</p>
+
+<p>Let's imagine that when a $1 bill is freshly printed, the Federal Reserve, the U.S. central bank, starts tracking its change of ownership.</p>
+
+<p>Whenever the $1 bill changes hands from person to person, the Federal Reserve records this on a file. The dollar bill's entire history of ownership is constantly tracked in sequential order from its creation.</p>
+
+<img src="https://bpcdn.co/images/2022/03/17103620/track-ownership-of-bitcoins-360x360.png" alt="Track ownership of bitcoins" />
+
+<p>This is basically what the Bitcoin system does. But instead of creating and tracking U.S. dollars (USD), it creates and tracks bitcoins (BTC), its own unit of account.</p>
+
+<p>If you send bitcoin to someone, that transaction becomes an official entry in a file that's automatically and permanently recorded, so that bitcoin can't be spent twice.</p>
+
+<p>The file stores all past transactions permanently so that there is a complete historical trail of ownership. This is very powerful since it proves who the current owner is without needing a third party.</p>
+
+<p>And there is NO central authority, like the Federal Reserve, storing and maintaining the file.</p>
+
+<p>Instead, it is stored publicly by a network of computers across the world. This file is replicated and stored on thousands of independent computers and is constantly updated whenever bitcoins change owners.</p>
+
+<p>Every time a transaction occurs, it is batched together with other transactions, and every couple of minutes, the ledger is updated on every computer across the network.</p>
+
+<p>This means that there are thousands of identical copies of this file. Whenever bitcoins change ownership, the transaction is recorded on EVERY one of the thousands of copies of the file around the world.</p>
+
+<p>The Bitcoin system is constantly comparing all copies of the file to make sure they all have matching transactions. This ensures that all copies are kept in sync.</p>
+
+<p>This "file" is Bitcoin's ledger.</p>
+
+<p>If you think about it, ANY system to keep track of digital money is just a RECORDKEEPING system.</p>
+
+<p>The way banks works....keeping a central ledger...is one type of recordkeeping system.</p>
+
+<p>When a single entity (like a bank) has control of all financial records, it is considered to be a central ledger.</p>
+
+<p>Bitcoin is a brand new type of recordkeeping system!</p>
+
+<p>Satoshi Nakamoto's design is what allows Bitcoin to function as a recordkeeping system SEPARATE from the banks and operate totally OUTSIDE the traditional financial system.</p>
+
+<p>Bitcoin does not use a central ledger. Bitcoin's ledger is a different type of ledger known as a distributed ledger.</p>
+`
+        },
+        {
+          title: "What is a Distributed Ledger?",
+          subtitle: "The first step to understanding how Bitcoin works is to become familiar with the concept of a distributed ledger.",
+          content: `
+<h1>What is a Distributed Ledger?</h1>
+
+<p>The first step to understanding how Bitcoin works is to become familiar with the concept of a "distributed ledger".</p>
+
+<p>In the previous lesson, I explained how Bitcoin is a new type of recordkeeping system that Satoshi Nakamoto created to be able to move money around on the internet.</p>
+
+<p>Bitcoin is a new kind of system that creates digital money designed to achieve two major goals:</p>
+
+<ul>
+<li>Prevent the double spending problem</li>
+<li>Achieve the first goal without a centralized financial institution like a bank.</li>
+</ul>
+
+<p>Bitcoin achieves these two goals by using an innovative approach on how it keeps a record of transactions and constantly maintains its accuracy.</p>
+
+<h2>What is a ledger?</h2>
+
+<p>In order to understand Bitcoin's approach, let's review how digital transactions work with a traditional bank.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17110721/online-bank-payment-1.png" alt="Online bank payment" />
+
+<p>In order to prevent double spending, a ledger is needed.</p>
+
+<p>The ledger keeps track of account balances.</p>
+
+<p>Before Bitcoin, this ledger was always stored by a centralized financial institution like a bank.</p>
+
+<p>Let's dig a tad bit deeper into WHY a bank is even needed in the first place.</p>
+
+<p>A cool way to explain this is to show an example that attempts to perform a digital transaction without a bank and see how a potential sh*tshow can occur.</p>
+
+<p>Rather than rely on a bank, what if Ursula and Molly keep their own copy of the ledger on their own computers?</p>
+
+<p>This ledger is simply a text file stored on their computer's hard drive.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17112659/p2p-electronic-payment.png" alt="P2P electronic payment" />
+
+<p>When Molly the Mermaid pays Ursula the Unicorn for her magical cupcakes, they both update their digital ledgers (the text file).</p>
+
+<p>If Ursula and Molly both trust each other and promise to keep their ledgers accurate, then this approach could work.</p>
+
+<p>But what if Ursula and Molly do NOT trust each other?</p>
+
+<p>What if Ursula is shady and edits her ledger to show that she never received payment from Molly and tries to ask for another $1?</p>
+
+<p>Imagine Ursula accusing Molly of not paying and showing proof by taking a screenshot of her ledger and sending it to Ned.</p>
+
+<p>Molly rejects her accusation and claims she is lying and shows proof by sending a screenshot of her ledger that clearly shows that $1 was transferred to her.</p>
+
+<p>Whose ledger is correct?!</p>
+
+<p>This will be a never-ending argument. They will never come to an agreement on who is telling the truth.</p>
+
+<p>This is why you need a trusted third party like a bank.</p>
+
+<p>The bank handles the record-keeping of transactions so all parties can agree on who really owns what.</p>
+
+<p>But we don't want to rely on a bank. We need a different solution.</p>
+
+<p>Here's an idea...</p>
+
+<p>What if they share the ledger with another friend?</p>
+
+<p>So let's add Pablo the Polar Bear.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17122628/pablo-bear.png" alt="Pablo the Polar Bear" />
+
+<p>Now we have a network of three friends, instead of just two.</p>
+
+<p>When Molly pays Ursula, everyone's ledgers get updated at the same time.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17122256/simple-distributed-ledger.png" alt="Simple distributed ledger" />
+
+<p>In this scenario, if Ursula tries to accuse Molly of not paying, by showing her ledger with a $0 balance, it will be different from Molly's and Pablo's ledgers.</p>
+
+<p>Ursula will have a tougher time proving she's right because Molly can ask Pablo to share his screenshot of the ledger with both of them.</p>
+
+<p>Two out of three ledgers show that Ursula has a $1 balance.</p>
+
+<p>Their ledgers do not agree with her ledger.</p>
+
+<p>Seeing that a majority of all ledgers show that Ursula has a $1 balance, Molly and Pablo come to a consensus and agree that their ledgers are the correct ones and Ursula's ledger is incorrect.</p>
+
+<p>Sensing defeat, Ursula confesses that she tampered with her ledger.</p>
+
+<p>Now everybody is in consensus that Molly really did transfer ownership of her $1 to Ursula, which means that Ursula does indeed have a $1 balance.</p>
+
+<p>In hopes that both Molly and Pablo would still buy cupcakes from her in the future and to win back their trust, she deletes her ledger and asks them for a copy of their version of the ledger so all three ledgers are back in sync.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17124944/distributed-ledgers-sync.png" alt="Distributed ledgers sync" />
+
+<p>This is an example of a distributed ledger.</p>
+
+<p>Not just one person holds the ledger, it's distributed across multiple people in different locations.</p>
+
+<p>(Technically, since the ledger is stored on a computer, it's distributed across multiple computers which are owned by the people.)</p>
+
+<h2>What is a distributed ledger?</h2>
+
+<p>A distributed ledger works because everyone is holding a copy of the SAME ledger. The more trusted people that hold the ledger, the stronger it becomes.</p>
+
+<p>A "distributed ledger" is a ledger that is replicated and stored across multiple locations instead of a single central location.</p>
+
+<p>With a distributed ledger, there is no more need for a bank to keep records. Instead, everyone (collectively) is the bank!</p>
+
+<p>This is the approach that Bitcoin takes.</p>
+
+<p>The core idea behind Bitcoin was to create a single distributed ledger of transactions that is accessible to everyone, where anyone in the world can view balances and submit transactions at any time, but where the ledger is not controlled by any single person, corporation, or government.</p>
+
+<p>In other words, a "distributed ledger" that is "permissionless" and is maintained on a "decentralized" basis.</p>
+
+<p>In reality, this is easier said than done. Let's see why....</p>
+
+<p>In the example above, because they were all friends, Pablo the Panda held a copy of the ledger, even though he wasn't part of the transaction.</p>
+
+<p>Without him though, there would be no agreement on the correct ledger. And shady Ursula might attempt more dishonest transactions.</p>
+
+<p>But what if they weren't friends? Why would Pablo make the effort to store a copy of the ledger on his computer and help validate transactions with no benefit for himself?</p>
+
+<p>While keeping track of transactions on a distributed ledger with just three people on a network is pretty manageable, what if there are thousands of people who want to join the network and send each other money?</p>
+
+<p>You can start to imagine the challenge that arises.</p>
+
+<p>Bitcoin's network is entirely public, and anyone can participate.</p>
+
+<p>While a public ledger allows for many more participants, which potentially strengthens the ledger, it also opens itself up to more shady participants trying to corrupt the ledger.</p>
+
+<p>When a lot of people have a copy of the same ledger, it makes it hard to cheat. But it doesn't mean cheaters still won't try.</p>
+
+<p>Within those thousands of people, there are probably going to be a bunch of shady Ursulas so you're going to need a lot of Pablos to ensure an accurate ledger is used by everyone.</p>
+
+<p>What if there were more people like Ursula? What if there were thousands of shady Ursulas editing their ledgers?</p>
+
+<p>Unlike Ursula, Molly, and Pablo who may know and trust each other, with a totally open and public network like Bitcoin's, you pretty much can NOT trust anybody.</p>
+
+<p>So with a distributed ledger, the challenges are this:</p>
+
+<ul>
+<li>How do you incentivize other people who aren't making transactions to hold a copy of the ledger on their computer and constantly check to make sure transactions are accurate and nobody is cheating?</li>
+<li>And if you have copies of the same ledger floating around on a thousand different computers and no one is in charge, how do you make sure all copies are identical, are updated synchronously, and reflect only honest transactions?</li>
+</ul>
+
+<p>In other words, how do you get a bunch of people who don't know each other, who don't trust each other to coordinate and come to a consensus on which ledger is accurate and true?</p>
+
+<p>Consensus is defined as a general agreement on the answer to the following question:</p>
+
+<p>"Which version of the ledger does everyone follow?"</p>
+
+<p>With thousands of people all holding their own copy of the ledger, some of which, like Ursula, may have made malicious edits, what is the consensus mechanism needed to get everyone to agree on the "correct ledger" to keep a copy of and follow?</p>
+
+<p>What makes Bitcoin special is how it figured out how to get these thousands of computers to AGREE in real-time which ledger to hold.</p>
+
+<p>Satoshi Nakamoto figured out a technical solution to overcome these challenges of using a distributed ledger and it was considered a game-changer!</p>
+
+<p>In order to understand HOW, we'll need to look under the hood of Bitcoin. In the next lesson, we'll start with a high-level overview of the Bitcoin system.</p>
+`
+        },
+        {
+          title: "The Bitcoin System and Its Components",
+          subtitle: "While Bitcoin is usually mentioned as a cryptocurrency, it's more than that. Bitcoin is actually a system.",
+          content: `
+<h1>The Bitcoin System and Its Components</h1>
+
+<p>What is Bitcoin?</p>
+
+<p>While "Bitcoin" is usually mentioned as a cryptocurrency, it's more than that.</p>
+
+<p>Bitcoin is actually a system.</p>
+
+<p>Like with any system, the Bitcoin system is a collection of elements or components that work together as a whole.</p>
+
+<p>Let's take a look at the different components of Bitcoin.</p>
+
+<p>The Bitcoin system is basically just a bunch of computers that "talk" to each other over the internet.</p>
+
+<p>To be able to talk to each other, Bitcoin software is installed on each computer.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17163515/bitcoin-computer-360x360.png" alt="Bitcoin computer" />
+
+<p>The Bitcoin software is open source which means anybody can look at the source code.</p>
+
+<p>Open source means that the software is not owned by anyone or any company. It is free to use and modify. Open source software is code that is designed to be publicly accessible. This means that anyone can see, modify, and distribute the code as they see fit.</p>
+
+<p>This software, known as the Bitcoin client, was created by Satoshi Nakamoto in late 2008.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17161907/developer-360x360.png" alt="Developer" />
+
+<p>The original implementation of the software is now known as Bitcoin Core. Satoshi Nakamoto served as the original maintainer of Bitcoin Core until he disappeared in late 2010.</p>
+
+<p>Since then, a bunch of other individuals, called "Core developers" have taken over and now maintain the software.</p>
+
+<p>What does the software do? It runs the Bitcoin protocol.</p>
+
+<p>A protocol is a set of rules or procedures that govern a system. So the Bitcoin protocol is the set of rules that define how the Bitcoin system operates.</p>
+
+<p>For example, there's a rule that specifies a predetermined amount of bitcoins to ever be in circulation. Another example of a rule specifies what determines a transaction to be valid.</p>
+
+<p>This protocol, or rules, can be described in writing, but in Bitcoin's case, are expressed in computer code. This computer code is then compiled into software.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17162517/bitcoin-software-code-360x360.png" alt="Bitcoin software code" />
+
+<p>Compiled just means that the human-readable computer code written by a programmer(s) is translated into computer-executable machine code.</p>
+
+<p>Anybody can download and install this software.</p>
+
+<p>Because Bitcoin Core's code is open source, there are now multiple implementations of Bitcoin's code. But Bitcoin Core remains the most popular, and used as the reference version by other Bitcoin software.</p>
+
+<p>Currently, this software is installed on thousands of computers spread out across the world.</p>
+
+<p>These computers are called Bitcoin nodes.</p>
+
+<p>If the computer ("node") is connected to the internet and starts running the software, it becomes part of the Bitcoin network.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17162643/global-network-360x360.png" alt="Global network" />
+
+<p>Once nodes are connected to the Bitcoin network, they start communicating and sharing information with each other.</p>
+
+<p>All right, let's list out components of the Bitcoin system that's been mentioned:</p>
+
+<ul>
+<li>Bitcoin software</li>
+<li>Bitcoin protocol</li>
+<li>Bitcoin nodes</li>
+<li>Bitcoin network</li>
+</ul>
+
+<p>We're still missing components, but no worries. All will be covered slowly in later lessons.</p>
+
+<p>For now, let's draw a "map" of the Bitcoin system of what you've learned so far.</p>
+
+<img src="https://bpcdn.co/images/2022/03/15215248/bitcoin-as-a-system-initial.png" alt="Bitcoin as a system initial map" />
+
+<p>The "map" looks pretty small right now but just you wait!</p>
+
+<p>As you learn more concepts, we will see it grow! Be prepared to be amazed!</p>
+
+<p>Let's now learn more about the Bitcoin network.</p>
+`
+        }
+      ]
+    },
     am: { title: "የቢትኮይን መመሪያ", description: "ቢትኮይን ምንድነው፣ ከየት እንደመጣ እና እንዴት እንደሚሠራ ይማሩ።", lessons: [] }
   },
   {
