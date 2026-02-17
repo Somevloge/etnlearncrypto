@@ -106,6 +106,8 @@
     @apply rounded-lg my-6 mx-auto max-w-full;
     max-height: 400px;
     object-fit: contain;
+    background-color: white;
+    padding: 8px;
   }
 
   .lesson-content ul, .lesson-content ol {
