@@ -950,6 +950,141 @@ export const courseData: Module[] = [
 
 <p>One bitcoin is divisible to eight decimal places. So it's possible to own 0.00000001 BTC.</p>
 `
+        },
+        {
+          title: "What is a Distributed Ledger?",
+          subtitle: "The first step to understanding how Bitcoin works is to become familiar with the concept of a \"distributed ledger\".",
+          content: `
+<h1>4. What is a Distributed Ledger?</h1>
+
+<p>The first step to understanding how Bitcoin works is to become familiar with the concept of a "distributed ledger".</p>
+
+<h2>Recap: The Ledger</h2>
+
+<p>In the previous lesson, we learned that a ledger is a recordkeeping system used to track ownership and transfers of money.</p>
+
+<p>When you use a bank, the bank maintains a ledger. The bank keeps a record of all transactions and updates balances accordingly.</p>
+
+<p>The problem? The bank's ledger is private and controlled by a single central authority — the bank itself.</p>
+
+<p>This centralized ledger creates risks: the bank could make errors, act dishonestly, get hacked, or be shut down by a government.</p>
+
+<h2>What if the ledger was public and shared?</h2>
+
+<p>What if instead of ONE bank keeping ONE private ledger, THOUSANDS of people each kept their OWN COPY of the SAME ledger?</p>
+
+<p>And what if all of those copies were kept in sync with each other — automatically and in real time?</p>
+
+<p>That's the core idea behind a <strong>distributed ledger</strong>.</p>
+
+<h2>What is a Distributed Ledger?</h2>
+
+<p>A distributed ledger is a type of database that is shared, replicated, and synchronized across many locations, institutions, or geographies.</p>
+
+<p>Unlike a centralized ledger (like a bank's database), a distributed ledger does not have a central administrator.</p>
+
+<p>Instead of one organization controlling the ledger, there are multiple participants (also called "nodes") that each hold a copy of the ledger.</p>
+
+<p>Every time a new transaction is recorded, all copies of the ledger are updated simultaneously.</p>
+
+<h2>Why is this important for Bitcoin?</h2>
+
+<p>Bitcoin uses a distributed ledger to keep track of all bitcoin transactions.</p>
+
+<p>Instead of relying on a bank to maintain the ledger, Bitcoin's ledger is maintained by thousands of participants (nodes) around the world.</p>
+
+<p>Nobody owns or controls this ledger. It belongs to everyone and no one at the same time.</p>
+
+<p>This is what makes Bitcoin truly decentralized — and it's what makes it so revolutionary.</p>
+
+<h2>The Key Benefits of a Distributed Ledger</h2>
+
+<ul>
+<li><strong>No single point of failure.</strong> Because the ledger exists in thousands of places simultaneously, it cannot be taken down by attacking a single server or location.</li>
+<li><strong>Transparency.</strong> Anyone can view the ledger at any time. All transactions are publicly visible.</li>
+<li><strong>Immutability.</strong> Once a transaction is recorded on the distributed ledger, it is extremely difficult to alter or delete.</li>
+<li><strong>No need to trust a central authority.</strong> You don't have to trust a bank. You only need to trust the math and the software.</li>
+</ul>
+
+<p>This distributed ledger is the foundation on which Bitcoin is built. In the next lesson, we'll look at the full Bitcoin system and all of its key components.</p>
+`
+        },
+        {
+          title: "The Bitcoin System and Its Components",
+          subtitle: "Bitcoin is more than just a cryptocurrency. It's a system. Let's take a look at the different components of the Bitcoin system.",
+          content: `
+<h1>5. The Bitcoin System and Its Components</h1>
+
+<p>Bitcoin is more than just a cryptocurrency. It's a <strong>system</strong>.</p>
+
+<p>When most people hear "Bitcoin", they think of the digital coin — the unit of currency called "bitcoin" (lowercase "b").</p>
+
+<p>But Bitcoin (capital "B") refers to the entire system that makes it all work.</p>
+
+<p>Think of it like this: When people say "the internet", they don't just mean one website. They mean the entire infrastructure — the cables, servers, protocols, and software — that makes it all possible.</p>
+
+<p>Similarly, Bitcoin is an entire system with multiple components working together.</p>
+
+<h2>The Key Components of the Bitcoin System</h2>
+
+<h2>1. The Bitcoin Network</h2>
+
+<p>The Bitcoin network is a decentralized, peer-to-peer (P2P) network of computers (called "nodes") that communicate with each other.</p>
+
+<p>There is no central server. Every node connects directly to other nodes.</p>
+
+<p>The network is what allows Bitcoin transactions to be broadcast and received by everyone simultaneously.</p>
+
+<h2>2. The Blockchain</h2>
+
+<p>The blockchain is the distributed ledger we learned about in the previous lesson.</p>
+
+<p>It is a continuously growing list of records, called "blocks", which are linked together and secured using cryptography.</p>
+
+<p>Each block contains a list of confirmed transactions. Once a block is added to the blockchain, the data in it cannot be changed.</p>
+
+<p>The blockchain is stored on thousands of nodes around the world simultaneously.</p>
+
+<h2>3. Bitcoin Miners</h2>
+
+<p>Miners are special participants in the Bitcoin network who perform the crucial task of validating new transactions and adding them to the blockchain.</p>
+
+<p>Mining involves solving a complex mathematical puzzle. The first miner to solve the puzzle gets to add a new block of transactions to the blockchain and is rewarded with newly created bitcoins.</p>
+
+<p>This process is called "Proof of Work" (PoW) and it is what makes the Bitcoin network secure.</p>
+
+<h2>4. Bitcoin Wallets</h2>
+
+<p>A Bitcoin wallet is software that allows you to send, receive, and store bitcoins.</p>
+
+<p>Contrary to what you might think, a Bitcoin wallet does not actually store any bitcoins. Instead, it stores the cryptographic keys that prove your ownership of certain bitcoins on the blockchain.</p>
+
+<p>Think of a wallet like a keychain — it holds the keys that unlock access to your funds.</p>
+
+<h2>5. Bitcoin (the currency)</h2>
+
+<p>Bitcoin (lowercase "b") is the digital currency — the unit of value — that is sent, received, and stored within the Bitcoin system.</p>
+
+<p>It is the "money" that runs on top of the Bitcoin network and is recorded on the blockchain.</p>
+
+<p>The total supply of bitcoin is capped at 21 million. This hard limit is written into Bitcoin's code and cannot be changed.</p>
+
+<h2>How It All Works Together</h2>
+
+<p>Here's a simplified overview of how all the components of the Bitcoin system work together:</p>
+
+<ol>
+<li>You use a <strong>Bitcoin wallet</strong> to send bitcoin to someone.</li>
+<li>Your transaction is broadcast to the <strong>Bitcoin network</strong>.</li>
+<li><strong>Bitcoin miners</strong> pick up your transaction, validate it, and include it in a new block.</li>
+<li>That new block is added to the <strong>blockchain</strong> — the permanent, public ledger.</li>
+<li>The recipient's <strong>wallet</strong> reflects the updated balance.</li>
+</ol>
+
+<p>All of this happens without any banks, governments, or other intermediaries involved.</p>
+
+<p>In the upcoming lessons, we'll explore each of these components in much greater detail. But now you have a solid high-level understanding of what the Bitcoin system is and how it all fits together.</p>
+`
         }
       ]
     },

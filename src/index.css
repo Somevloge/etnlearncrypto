@@ -108,6 +108,7 @@
     object-fit: contain;
     background-color: white;
     padding: 8px;
+    mix-blend-mode: multiply;
   }
 
   .lesson-content ul, .lesson-content ol {
