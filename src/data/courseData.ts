@@ -1092,7 +1092,367 @@ export const courseData: Module[] = [
   },
   {
     id: 3, icon: "Network",
-    en: { title: "Beginner's Guide to the Bitcoin Network", description: "Learn what the Bitcoin network is, what happens on the Bitcoin network, and why it's important.", lessons: [] },
+    en: {
+      title: "Beginner's Guide to the Bitcoin Network",
+      description: "Learn what the Bitcoin network is, what happens on the Bitcoin network, and why it's important.",
+      lessons: [
+        {
+          title: "What is a Network?",
+          subtitle: "Before we dig deeper into the details of the actual Bitcoin network, let's take a step back first and review what a computer network is.",
+          content: `
+<h1>What is a Network?</h1>
+
+<p>Instead of a governing body or central organization (like a bank) managing transactions, Bitcoin is run by a network made up of thousands of computers running some software that handles the sending and receiving of bitcoins.</p>
+
+<p>This network of computers is called the Bitcoin network.</p>
+
+<p>Before we dig deeper into the details of the actual Bitcoin network, let's take a step back first and review what a "network" is.</p>
+
+<h2>What is a network?</h2>
+
+<p>What's a network? Or more specifically, what's a computer network?</p>
+
+<p>A network is just a bunch of computers linked together allowing them to exchange data with each other.</p>
+
+<p>There are two basic ways a network can be arranged:</p>
+
+<h2>1. Client-Server Network</h2>
+
+<p>The first type of network is known as a "client-server network".</p>
+
+<img src="/images/module3/img_p1_1.png" alt="Client-Server Network" style="background-color: white;" />
+
+<p>A client-server network is when there is one centralized computer (called the "server") that acts as a hub to which other computers (called "clients") are connected.</p>
+
+<p>Data is requested by computers known as "clients" (such as PCs or even smartphones) and are served by computers called "servers".</p>
+
+<p>This is the type of network configuration used by banks and popular payment apps like PayPal, Venmo, Apple Pay, and Google Pay. In conventional digital banking, your laptop or mobile phone acts as an electronic "client" interacting with a central server operated by your bank.</p>
+
+<p>This "hub-and-spoke" network configuration is highly efficient but it's fragile since the server is a "chokepoint" and becomes a centralized single point of failure ("SPOF").</p>
+
+<p>If the server goes down, the entire network goes down.</p>
+
+<h2>2. Peer-to-Peer Network (P2P)</h2>
+
+<p>The second type of network is known as a "peer-to-peer network".</p>
+
+<img src="/images/module3/img_p3_1.png" alt="Peer-to-Peer Network" style="background-color: white;" />
+
+<p>Where's the "server"? There is none.</p>
+
+<p>Instead of "servers" and "clients", computers are simply known as "nodes" since they can function as both client AND server.</p>
+
+<p>A peer-to-peer network, also known as a P2P network, is created when two or more computers are connected and exchange data with each other without going through a separate "server" computer.</p>
+
+<p>In a P2P network, computers are able to "talk" to each other directly.</p>
+
+<p>Instead of a "hub-and-spoke" configuration, a P2P network is structured like a "spider web".</p>
+
+<p>A popular example of a P2P network is the internet itself.</p>
+
+<p>For folks with a tad bit of gray hair, you may have remembered a famous music-sharing software called Napster. Napster deserves credit for popularizing the use of software that runs on a P2P network. BitTorrent is another one.</p>
+
+<h2>Characteristics of a Peer-to-Peer Network</h2>
+
+<ul>
+<li>Everyone is connected to each other, so it's a network.</li>
+<li>Everyone on the network is equal, so they are all considered peers.</li>
+</ul>
+
+<p>Each peer is equal to the others, and each peer has the same rights and duties as the others. Peers are both clients AND servers at the same time.</p>
+
+<p>What the heck does this have to do with Bitcoin?</p>
+
+<p>Remember…Bitcoin runs on a computer network which is known as the Bitcoin network.</p>
+
+<p>And it's configured as a peer-to-peer (P2P) network!</p>
+
+<p>Why is this important?</p>
+
+<p>In the next lesson, I'll explain why. 🤔</p>
+`
+        },
+        {
+          title: "What is the Bitcoin Network?",
+          subtitle: "What is the Bitcoin network? And how is it formed?",
+          content: `
+<h1>What is the Bitcoin Network?</h1>
+
+<p>What is the Bitcoin network?</p>
+
+<p>The Bitcoin network is a peer-to-peer (P2P) network.</p>
+
+<p>From the words of the Bitcoin God himself:</p>
+
+<blockquote><p>"A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution."</p></blockquote>
+
+<p>The Bitcoin network is made up of computers running the Bitcoin software (also known as a Bitcoin client).</p>
+
+<p>The software running is what makes the whole thing work.</p>
+
+<img src="/images/module3/img_p7_1.png" alt="Bitcoin client nodes" style="background-color: white;" />
+
+<p>Any computer on the Bitcoin network can "talk" with each other directly.</p>
+
+<p>This is different from a client-server network where every computer on the network must first go through a central server.</p>
+
+<img src="/images/module3/img_p8_1.png" alt="Bitcoin P2P network realistic" style="background-color: white;" />
+
+<p>In the real world, P2P networks don't look as pretty and organized as above. Not every computer can connect directly with each other because….the world is too big.</p>
+
+<p>So let's keep it real….</p>
+
+<h2>Centralized vs. Decentralized Network</h2>
+
+<p>Since there is no central server in a P2P network, it is a decentralized network.</p>
+
+<p>A decentralized network consists of "peers" that can run independently of each other.</p>
+
+<img src="/images/module3/img_p10_1.png" alt="Centralized vs Decentralized Network" style="background-color: white;" />
+
+<p>Why does this matter?</p>
+
+<p>There are two main reasons:</p>
+
+<h2>1. No Central Point of Failure</h2>
+
+<img src="/images/module3/img_p11_1.png" alt="No Central Point of Failure" style="background-color: white;" />
+
+<p>If one computer goes down, the network continues to run like it never existed. This is different from a centralized network.</p>
+
+<p>In a centralized network configuration, like the client-server network, if the central server goes down, the entire network goes down with it.</p>
+
+<p>This means that the Bitcoin network can not be shut down. Because there is no "server" to take down.</p>
+
+<p>Each computer on the Bitcoin network is independent. If one fails, the network will still run successfully.</p>
+
+<h2>2. Decentralized Consensus</h2>
+
+<img src="/images/module3/img_p12_1.png" alt="Decentralized Consensus" style="background-color: white;" />
+
+<p>When using electronic money to make a payment, like with a bank transfer from your checking account, your transaction has to go through a trusted "middleman" or third party to settle the transaction by deducting funds from one account and adding them to another.</p>
+
+<p>If this middleman settles the transaction, then the transaction is considered valid.</p>
+
+<p>If I transferred you some money, you and I agree the money has actually transferred from my account to yours because we relied on a trusted intermediary or central authority…..the bank. So in this case, "consensus" on whether the transaction is valid requires centralization.</p>
+
+<p>Bitcoin is different. It uses decentralized consensus.</p>
+
+<p>The idea is that instead of relying on an intermediary, ALL the computers on the Bitcoin network have to come to an agreement by "consensus" on which transactions are valid.</p>
+
+<p>Basically, the middleman is replaced by a network of computers.</p>
+
+<p>HOW all of these computers actually come to a consensus will be explained in a later lesson.</p>
+`
+        },
+        {
+          title: "What Does the Bitcoin Network Do?",
+          subtitle: "Learn how the Bitcoin network is formed and what actually happens on the network.",
+          content: `
+<h1>What Does the Bitcoin Network Do?</h1>
+
+<p>For now, let's take a look at how the Bitcoin network works.</p>
+
+<p>As mentioned in the previous lesson, the Bitcoin network is made up of computers running the Bitcoin software. These computers or "machines" are known as Bitcoin nodes.</p>
+
+<p>Bitcoins nodes basically gossip. They love to talk to each other.</p>
+
+<p>But instead of talking about recent drama from the Kardashians, they communicate about what's going on around the network.</p>
+
+<p>This is done by sending each other messages.</p>
+
+<img src="/images/module3/img_p15_1.png" alt="Bitcoin network message" style="background-color: white;" />
+
+<p>In Bitcoin's case, each message contains information about a new transaction.</p>
+
+<p>Nodes form a network by connecting and sharing transactions with one another.</p>
+
+<img src="/images/module3/img_p16_1.png" alt="Nodes sharing transactions" style="background-color: white;" />
+
+<p>This sharing of information ("transaction data") is what allows all the computers on the network to stay up-to-date, which is pretty important if you want to run a digital currency on the internet.</p>
+
+<h2>Who is part of the Bitcoin network?</h2>
+
+<p>Any computer that is running a Bitcoin client software is part of the network.</p>
+
+<p>Got an active Internet connection? Then you can join. Anybody can join the Bitcoin network!</p>
+
+<p>Aside from an internet connection, you'll just need to download and install the software (Bitcoin client) and let the application run on your computer all day long.</p>
+
+<p>Once it's up and running, the computer will be known as a Bitcoin "node" on the Bitcoin network.</p>
+
+<p>There are no jocks or mean girls who will bully you and try to keep you out. Got a Bitcoin client software up and running on your computer? Welcome to the cool club. You now got node status yo.</p>
+
+<p>In computer geek lingo, a "client" is a piece of hardware or software that connects to a server.</p>
+
+<p>For example, an internet browser like Google Chrome or Apple Safari is a "client" since it connects to a website's server to request its content.</p>
+
+<p>In the context of Bitcoin, a client is a software that connects to other clients in a peer-to-peer manner.</p>
+
+<p>Because all these clients talk to each other, they form a network where each client is a node. There is no Bitcoin "server" for Bitcoin clients to connect to. Every Bitcoin client is, at the same, a server also.</p>
+
+<p>To avoid confusion, this is why the term "node" is typically used in place of "client".</p>
+
+<img src="/images/module3/img_p18_1.png" alt="Nodes network diagram" style="background-color: white;" />
+
+<h2>The Bitcoin Network</h2>
+
+<p>The Bitcoin network is just a bunch of connected nodes from all over the globe. And there are over 15,000 of them!</p>
+
+<h2>Geographical Distribution of Bitcoin Nodes</h2>
+
+<p>Here's a map showing the geographical distribution of Bitcoin nodes:</p>
+
+<img src="/images/module3/img_p19_1.jpg" alt="Geographical Distribution of Bitcoin Nodes" style="background-color: white;" />
+
+<p>When you read Bitcoin (and other cryptocurrencies) described as being "managed by peer-to-peer networks of computers running software," this is what they mean.</p>
+
+<p>Think of the Bitcoin network as a leaderless network of independent computers ("nodes") that operate autonomously based on the Bitcoin software.</p>
+`
+        },
+        {
+          title: "What is a Bitcoin Node?",
+          subtitle: "What exactly is a Bitcoin node? What does a Bitcoin node do? How does a Bitcoin node work?",
+          content: `
+<h1>What is a Bitcoin Node?</h1>
+
+<p>The Bitcoin network is a peer-to-peer (P2P) network of "nodes".</p>
+
+<p>In previous lessons, you learned what a network does and what a P2P network is.</p>
+
+<p>But what exactly is a Bitcoin node? What does a Bitcoin node do?</p>
+
+<p>How does a Bitcoin node work?</p>
+
+<h2>A Bitcoin node</h2>
+
+<p>A Bitcoin node, or more specifically, a Bitcoin "full node", is simply a computer that runs the Bitcoin software (known as a "Bitcoin client" or "Bitcoin client software").</p>
+
+<p>It could be a desktop PC or laptop as long as it has enough hard drive storage to store historical data.</p>
+
+<img src="/images/module3/img_p21_1.png" alt="Bitcoin node" style="background-color: white;" />
+
+<p>The terms "node" and "full node" are often used synonymously, but there's actually a difference between the two. That's because there are two types of nodes: "full node" and "light node" (or "lightweight node"). Full nodes form the backbone of the Bitcoin network, while light nodes depend on full nodes for functioning. Since light nodes can't function on their own, I consider them more as a "barnacle" or a "parasite" since they need to attach themselves to a full node. Going forward, unless specified, when I use the word "node", I mean "full node".</p>
+
+<h2>What does a Bitcoin node do?</h2>
+
+<p>A node does three things:</p>
+
+<ol>
+<li>Follow rules</li>
+<li>Share information</li>
+<li>Keep a copy of confirmed transactions</li>
+</ol>
+
+<h2>1. Follow Rules</h2>
+
+<p>Each node (a computer running the Bitcoin software) has been programmed to follow a set of rules.</p>
+
+<p>This is called the Bitcoin protocol.</p>
+
+<p>A protocol is a set of predefined rules that dictates how the network operates, and that all network participants must abide by in order for the network to function.</p>
+
+<p>Each Bitcoin node is autonomous. If you have a computer that runs a Bitcoin client, the network doesn't "tell you what to do". Instead, the Bitcoin client already knows what to do, and it makes its own decisions based on the Bitcoin protocol (rules).</p>
+
+<p>Because the rules are predefined and coded into the Bitcoin software, this prevents any disagreement on the Bitcoin network.</p>
+
+<p>By following these rules, a node is able to check the transactions it receives and only relay them if everything is legit.</p>
+
+<p>If there are any problems, the transaction isn't passed on.</p>
+
+<img src="/images/module3/img_p24_1.png" alt="Good and bad transactions" style="background-color: white;" />
+
+<p>A transaction that does not follow the rules will be rejected by the P2P network of computers.</p>
+
+<p>For example, one rule is that a person must own an equal or greater amount of bitcoins than they are trying to send.</p>
+
+<p>If your node receives a transaction where someone has tried to send more bitcoins than they own, the transaction won't be passed on to other nodes.</p>
+
+<p>If any member of the Bitcoin network attempts to broadcast false information, all nodes on the network will immediately recognize it as invalid and reject it.</p>
+
+<p>Because each and every node can verify all information on the network itself, there is no need to trust other members of the network. This makes Bitcoin a trustless system.</p>
+
+<h2>2. Share information</h2>
+
+<p>The primary job of a node is to gossip….to share information with other nodes.</p>
+
+<p>This "information" a node shares are transactions.</p>
+
+<p>There are TWO types of transactions that nodes share:</p>
+
+<p>Fresh transactions: transactions that have recently entered the network.</p>
+
+<p>Confirmed transactions: transactions that have been "confirmed" and written to a file. These transactions are not shared individually but are first packaged into BLOCKS before they are shared.</p>
+
+<img src="/images/module3/img_p26_1.png" alt="Fresh vs confirmed transactions" style="background-color: white;" />
+
+<p>A node shares both "fresh" transactions and blocks of "confirmed" transactions.</p>
+
+<h2>What's a block?</h2>
+
+<p>Let's pretend you go to your local coffee shop and after you pay, you get a receipt that signifies a "transaction" with the barista. You really love going to this coffee shop and after multiple visits, you now have a stack of receipts. You bundle them together. That's a "block".</p>
+
+<p>So in Bitcoin, transactions that are bundled together is called a "block".</p>
+
+<p>Don't worry too much about blocks or the differences between fresh and confirmed transactions right now. It will all become clear in later lessons.</p>
+
+<h2>3. Keep a copy of confirmed transactions</h2>
+
+<p>As mentioned above, each node also keeps blocks of "confirmed" transactions.</p>
+
+<p>These are held together in a file called the "blockchain".</p>
+
+<h2>What's a chain?</h2>
+
+<p>For the purposes of this lesson, a "chain" just means that when you create a new block (another bundle of transactions), you hook it onto the previous block. And once hooked, it's permanent. You can't "unhook" it.</p>
+
+<p>It's forever attached to that previous block. So using the coffee shop example I mentioned earlier, imagine a chain of multiple bundles of receipts…that's a "chain of blocks" or a blockchain.</p>
+
+<img src="/images/module3/img_p28_1.png" alt="Blockchain chain" style="background-color: white;" />
+
+<p>Fresh transactions travel around the network until they are added to the blockchain, which is just a ledger of confirmed transactions.</p>
+
+<p>There is no single blockchain. Every node has its own copy of the blockchain.</p>
+
+<p>All nodes do their best to stay in sync. If some nodes have outdated copies of the blockchain, other nodes who have the most recent copy of the blockchain will share their copy with them.</p>
+
+<p>The cool thing about each node having its own copy of the blockchain is if one (or more) nodes go offline, the Bitcoin network can continue to still operate! The more nodes that are running, the more difficult it is to shut down Bitcoin.</p>
+
+<p>The network is NOT dependent on any single node. There is no central point of failure. In order to actually kill Bitcoin, every single copy of the blockchain must be destroyed.</p>
+
+<p>Every node is independent. Nodes (computers) can leave and rejoin the network at will.</p>
+
+<p>If a node disconnects from the network and returns, the computer will just download the freshest copy of Bitcoin's blockchain and it becomes a node again.</p>
+
+<p>Nodes are a critical part of the Bitcoin system. Without nodes, there is no Bitcoin network.</p>
+
+<p>And without the Bitcoin network, there is no blockchain since nodes are needed to store copies of the blockchain.</p>
+
+<p>And with no blockchain, there is no Bitcoin system.</p>
+
+<h2>Summary</h2>
+
+<p>So far, you've learned that the Bitcoin network is:</p>
+
+<ul>
+<li>a leaderless peer-to-peer network of nodes (computers running Bitcoin software),</li>
+</ul>
+
+<p>in which every node independently checks that all rules are being followed,</p>
+
+<p>verifies fresh transactions and</p>
+
+<p>stores a copy of the blockchain (the ledger of confirmed transactions).</p>
+
+<p>Because every node is doing the same work, there is no central point of failure. There is no centralized server.</p>
+
+<p>In order for fresh transactions to be ADDED to the blockchain, they go through a process called "mining" which is done by a special type of node known as "miners".</p>
+
+<p>But in order to learn how Bitcoin mining works, we need to take a quick detour.</p>
+`
+        }
+      ]
+    },
     am: { title: "የቢትኮይን ኔትወርክ መመሪያ", description: "የቢትኮይን ኔትወርክ ምንድነው ይማሩ።", lessons: [] }
   },
   {
