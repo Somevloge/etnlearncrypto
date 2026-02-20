@@ -1120,7 +1120,7 @@ export const courseData: Module[] = [
 
 <p>The first type of network is known as a "client-server network".</p>
 
-<img src="/images/module3/img_p1_1.png" alt="Client-Server Network" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17192841/client-server-network-1.png" alt="Client-Server Network" style="background-color: white;" />
 
 <p>A client-server network is when there is one centralized computer (called the "server") that acts as a hub to which other computers (called "clients") are connected.</p>
 
@@ -1136,7 +1136,7 @@ export const courseData: Module[] = [
 
 <p>The second type of network is known as a "peer-to-peer network".</p>
 
-<img src="/images/module3/img_p3_1.png" alt="Peer-to-Peer Network" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17193005/p2p-network.png" alt="Peer-to-Peer Network" style="background-color: white;" />
 
 <p>Where's the "server"? There is none.</p>
 
@@ -1190,13 +1190,13 @@ export const courseData: Module[] = [
 
 <p>The software running is what makes the whole thing work.</p>
 
-<img src="/images/module3/img_p7_1.png" alt="Bitcoin client nodes" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17193409/bitcoin-client-on-network.png" alt="Bitcoin client nodes" style="background-color: white;" />
 
 <p>Any computer on the Bitcoin network can "talk" with each other directly.</p>
 
 <p>This is different from a client-server network where every computer on the network must first go through a central server.</p>
 
-<img src="/images/module3/img_p8_1.png" alt="Bitcoin P2P network realistic" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17193555/bitcoin-client-on-network-realistic.png" alt="Bitcoin P2P network realistic" style="background-color: white;" />
 
 <p>In the real world, P2P networks don't look as pretty and organized as above. Not every computer can connect directly with each other because….the world is too big.</p>
 
@@ -1208,7 +1208,7 @@ export const courseData: Module[] = [
 
 <p>A decentralized network consists of "peers" that can run independently of each other.</p>
 
-<img src="/images/module3/img_p10_1.png" alt="Centralized vs Decentralized Network" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/22125958/decentralized-vs-centralized-network.png" alt="Centralized vs Decentralized Network" style="background-color: white;" />
 
 <p>Why does this matter?</p>
 
@@ -1216,7 +1216,7 @@ export const courseData: Module[] = [
 
 <h2>1. No Central Point of Failure</h2>
 
-<img src="/images/module3/img_p11_1.png" alt="No Central Point of Failure" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17193858/central-point-of-failure-360x341.png" alt="No Central Point of Failure" style="background-color: white;" />
 
 <p>If one computer goes down, the network continues to run like it never existed. This is different from a centralized network.</p>
 
@@ -1228,7 +1228,7 @@ export const courseData: Module[] = [
 
 <h2>2. Decentralized Consensus</h2>
 
-<img src="/images/module3/img_p12_1.png" alt="Decentralized Consensus" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17193947/decentralized-consensus.png" alt="Decentralized Consensus" style="background-color: white;" />
 
 <p>When using electronic money to make a payment, like with a bank transfer from your checking account, your transaction has to go through a trusted "middleman" or third party to settle the transaction by deducting funds from one account and adding them to another.</p>
 
@@ -1261,13 +1261,13 @@ export const courseData: Module[] = [
 
 <p>This is done by sending each other messages.</p>
 
-<img src="/images/module3/img_p15_1.png" alt="Bitcoin network message" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17194831/bitcoin-network-message.png" alt="Bitcoin network message" style="background-color: white;" />
 
 <p>In Bitcoin's case, each message contains information about a new transaction.</p>
 
 <p>Nodes form a network by connecting and sharing transactions with one another.</p>
 
-<img src="/images/module3/img_p16_1.png" alt="Nodes sharing transactions" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17194943/bitcoin-network-message-propogate.png" alt="Nodes sharing transactions" style="background-color: white;" />
 
 <p>This sharing of information ("transaction data") is what allows all the computers on the network to stay up-to-date, which is pretty important if you want to run a digital currency on the internet.</p>
 
@@ -1293,7 +1293,7 @@ export const courseData: Module[] = [
 
 <p>To avoid confusion, this is why the term "node" is typically used in place of "client".</p>
 
-<img src="/images/module3/img_p18_1.png" alt="Nodes network diagram" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17195207/bitcoin-network-of-nodes.png" alt="Nodes network diagram" style="background-color: white;" />
 
 <h2>The Bitcoin Network</h2>
 
@@ -1303,7 +1303,7 @@ export const courseData: Module[] = [
 
 <p>Here's a map showing the geographical distribution of Bitcoin nodes:</p>
 
-<img src="/images/module3/img_p19_1.jpg" alt="Geographical Distribution of Bitcoin Nodes" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/03/02094729/map-bitcoin-nodes-1-780x471.jpg" alt="Geographical Distribution of Bitcoin Nodes" style="background-color: white;" />
 
 <p>When you read Bitcoin (and other cryptocurrencies) described as being "managed by peer-to-peer networks of computers running software," this is what they mean.</p>
 
@@ -1330,7 +1330,7 @@ export const courseData: Module[] = [
 
 <p>It could be a desktop PC or laptop as long as it has enough hard drive storage to store historical data.</p>
 
-<img src="/images/module3/img_p21_1.png" alt="Bitcoin node" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17205530/computer-as-bitcoin-node.png" alt="Bitcoin node" style="background-color: white;" />
 
 <p>The terms "node" and "full node" are often used synonymously, but there's actually a difference between the two. That's because there are two types of nodes: "full node" and "light node" (or "lightweight node"). Full nodes form the backbone of the Bitcoin network, while light nodes depend on full nodes for functioning. Since light nodes can't function on their own, I consider them more as a "barnacle" or a "parasite" since they need to attach themselves to a full node. Going forward, unless specified, when I use the word "node", I mean "full node".</p>
 
@@ -1360,7 +1360,7 @@ export const courseData: Module[] = [
 
 <p>If there are any problems, the transaction isn't passed on.</p>
 
-<img src="/images/module3/img_p24_1.png" alt="Good and bad transactions" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17195723/bitcoin-transaction-validation.png" alt="Good and bad transactions" style="background-color: white;" />
 
 <p>A transaction that does not follow the rules will be rejected by the P2P network of computers.</p>
 
@@ -1384,7 +1384,7 @@ export const courseData: Module[] = [
 
 <p>Confirmed transactions: transactions that have been "confirmed" and written to a file. These transactions are not shared individually but are first packaged into BLOCKS before they are shared.</p>
 
-<img src="/images/module3/img_p26_1.png" alt="Fresh vs confirmed transactions" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17201845/fresh-vs-confirmed-bitcoin-transactions-1.png" alt="Fresh vs confirmed transactions" style="background-color: white;" />
 
 <p>A node shares both "fresh" transactions and blocks of "confirmed" transactions.</p>
 
@@ -1408,7 +1408,7 @@ export const courseData: Module[] = [
 
 <p>It's forever attached to that previous block. So using the coffee shop example I mentioned earlier, imagine a chain of multiple bundles of receipts…that's a "chain of blocks" or a blockchain.</p>
 
-<img src="/images/module3/img_p28_1.png" alt="Blockchain chain" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/17202107/bitcoin-node-stores-blockchain-1.png" alt="Blockchain chain" style="background-color: white;" />
 
 <p>Fresh transactions travel around the network until they are added to the blockchain, which is just a ledger of confirmed transactions.</p>
 
