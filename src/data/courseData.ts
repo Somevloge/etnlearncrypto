@@ -45,7 +45,7 @@ export const courseData: Module[] = [
 
 <p>A cryptocurrency (or "crypto") is an umbrella term for a new kind of "digital money" that relies on a combination of technologies that allows it to exist outside the control of central authorities like governments and banks.</p>
 
-<img src="/images/module1/img_p1_1.png" alt="Cryptocurrency concept illustration" />
+<img src="https://bpcdn.co/images/2022/02/15201143/bitcoin-digital-currency.png" alt="Cryptocurrency concept illustration" style="background-color: white;" />
 
 <h2>Cryptocurrencies are digital.</h2>
 
@@ -65,7 +65,7 @@ export const courseData: Module[] = [
 
 <p>You don't even need to give your name. Instead of names and account numbers, all you need to provide is a computer-generated string of letters and numbers known as an "address". This address is not inherently tied to any of your personal information, so you can theoretically send cryptocurrencies to other people without ever knowing each other's actual identities.</p>
 
-<img src="/images/module1/img_p3_1.png" alt="Permissionless transactions illustration" />
+<img src="https://bpcdn.co/images/2022/02/15200642/bitcoin-decentralized-currency.png" alt="Permissionless transactions illustration" style="background-color: white;" />
 
 <p>Since you can send and receive cryptocurrencies without giving any personally identifying information, cryptocurrencies provide some degree of privacy.</p>
 
@@ -75,7 +75,7 @@ export const courseData: Module[] = [
 
 <p>For example, the U.S. dollar is issued and controlled by the Federal Reserve ("Fed"), the euro by the European Central Bank (ECB), and the Japanese yen by the Bank of Japan (BOJ).</p>
 
-<img src="/images/module1/img_p4_1.png" alt="Central banks comparison" />
+<img src="https://bpcdn.co/images/2022/08/22221616/crypto-software.png" alt="Central banks comparison" style="background-color: white;" />
 
 <p>This means that, unlike fiat currencies, cryptocurrencies are not controlled by a central authority. There is no bank or government behind them. This defining feature of cryptocurrencies is known as decentralization.</p>
 
@@ -93,7 +93,7 @@ export const courseData: Module[] = [
 
 <p>Cryptocurrencies are also designed to be counterfeit-proof. This is where cryptography is involved and how it's used to securely record and store transactions.</p>
 
-<img src="/images/module1/img_p6_1.png" alt="Cryptography illustration" />
+<img src="https://bpcdn.co/images/2022/02/15210311/cryptography-hidden-writing-150x150.png" alt="Cryptography illustration" style="background-color: white;" />
 
 <p>In cryptography, the prefix "crypt" means "hidden" and the suffix "graphy" means "writing".</p>
 
@@ -159,7 +159,7 @@ export const courseData: Module[] = [
 <tr><td>Ownership into a business</td><td>Lending money to someone</td><td>Ownership of goods which has an end use</td><td>Ownership of physical space</td><td>Ability to buy anything</td></tr>
 </table>
 
-<img src="/images/module1/img_p11_1.png" alt="Asset classes illustration" />
+<img src="https://bpcdn.co/images/2022/02/16114521/asset-classes.png" alt="Asset classes illustration" style="background-color: white;" />
 
 <h2>And now there's…crypto!</h2>
 
@@ -181,7 +181,7 @@ export const courseData: Module[] = [
 
 <p>The first cryptocurrency was Bitcoin, and it remains the biggest and most well-known.</p>
 
-<img src="/images/module1/img_p13_1.png" alt="Bitcoin and other cryptocurrencies" />
+<img src="https://bpcdn.co/images/2022/02/21153121/other-cryptocurrencies.png" alt="Bitcoin and other cryptocurrencies" style="background-color: white;" />
 
 <p>There are also other well-known cryptocurrencies like Ether, XRP, Cardano, Solana, Dogecoin, Polkadot, Litecoin, Cosmos, and many others.</p>
 
@@ -191,7 +191,7 @@ export const courseData: Module[] = [
 
 <p>Today, there are now THOUSANDS of cryptocurrencies that have been created, with each trying to offer new or improved functionalities.</p>
 
-<img src="/images/module1/img_p14_1.png" alt="Thousands of cryptocurrencies" />
+<img src="https://bpcdn.co/images/2022/02/16154624/galaticoin.png" alt="Thousands of cryptocurrencies" style="background-color: white;" />
 
 <p>from earlier cryptocurrencies or to serve a totally different purpose or use case.</p>
 
@@ -201,7 +201,7 @@ export const courseData: Module[] = [
 
 <p>They think: "I must buy this Galaticoin!"</p>
 
-<img src="/images/module1/img_p15_1.png" alt="Galaticoin scam illustration" />
+<img src="https://bpcdn.co/images/2019/02/26172550/buy-galaticoin-no-fomo-287x360.png" alt="Galaticoin scam illustration" style="background-color: white;" />
 
 <p>They buy the dubious coin and give away their money without understanding the underlying technology.</p>
 
@@ -211,7 +211,7 @@ export const courseData: Module[] = [
 
 <p>Some people are jumping into the crypto market with the wrong mentality. They believe that it's a sure bet….that the money they put in will just automatically grow.</p>
 
-<img src="/images/module1/img_p16_1.png" alt="Wrong mentality illustration" />
+<img src="https://bpcdn.co/images/2022/02/16124644/one-legged-deer.png" alt="Wrong mentality illustration" style="background-color: white;" />
 
 <p>With this mentality, it's not surprising that a scam artist or shiller sees today's cryptocurrency market like how a tiger sees a herd of one-legged deer.</p>
 
@@ -236,7 +236,7 @@ export const courseData: Module[] = [
 
 <p>Welcome to my School of Crypto! I will be your friendly guide. 🏫</p>
 
-<img src="/images/module1/img_p17_1.png" alt="Toshi Moshi character" />
+<img src="https://bpcdn.co/images/2022/02/16125723/toshi-welcome.png" alt="Toshi Moshi character" style="background-color: white;" />
 
 <h2>Introduction to Cryptocurrencies</h2>
 
@@ -256,7 +256,7 @@ export const courseData: Module[] = [
 
 <p>It's mind-bogglingly to see so many folks on TikTok, Twitter, and Reddit gambling away their money so they can buy a lambo.</p>
 
-<img src="/images/module1/img_p19_1.png" alt="Lambo dreams illustration" />
+<img src="https://bpcdn.co/images/2022/02/16131504/shady-coin-homeless.png" alt="Lambo dreams illustration" style="background-color: white;" />
 
 <p>At BabyPips.com, we encourage a different approach.</p>
 
@@ -276,7 +276,7 @@ export const courseData: Module[] = [
 
 <p>I disagree.</p>
 
-<img src="/images/module1/img_p21_1.png" alt="Caution illustration" />
+<img src="https://bpcdn.co/images/2022/02/16171813/toshi-caution.png" alt="Caution illustration" style="background-color: white;" />
 
 <p>YOU do need to understand it.</p>
 
@@ -288,7 +288,7 @@ export const courseData: Module[] = [
 
 <p>"I bet your life savings and bought crypto, then lost it all because I didn't really understand what it was all about…and got suckered by some charismatic scammers…..which is why I'm now single and still living here with your great-grandma."</p>
 
-<img src="/images/module1/img_p23_1.png" alt="Grandkids scenario illustration" />
+<img src="https://bpcdn.co/images/2022/07/21110412/old-crypto-trader.png" alt="Grandkids scenario illustration" style="background-color: white;" />
 
 <p>Hopefully, you will be telling them neither!</p>
 
@@ -296,7 +296,7 @@ export const courseData: Module[] = [
 
 <p>I think it's crucial to at least have a basic understanding of the underlying technology and concepts of cryptocurrencies before plunking down any amount of money.</p>
 
-<img src="/images/module1/img_p24_1.png" alt="Education is key illustration" />
+<img src="https://bpcdn.co/images/2022/02/16173431/toshi-welcome-aboard.png" alt="Education is key illustration" style="background-color: white;" />
 
 <p>My hope is that this course provides a strong foundation for those who are noobs and are just starting their journey into the crypto world.</p>
 
@@ -323,7 +323,7 @@ export const courseData: Module[] = [
 
 <p>So rather than try to learn about the entire crypto market all at once, and get overwhelmed, I'm going to start with Bitcoin.</p>
 
-<img src="/images/module1/img_p26_1.png" alt="Understanding Bitcoin illustration" />
+<img src="https://bpcdn.co/images/2022/02/20104932/bitcoin-yay.png" alt="Understanding Bitcoin illustration" style="background-color: white;" />
 
 <h2>Understanding Bitcoin</h2>
 
@@ -347,7 +347,7 @@ export const courseData: Module[] = [
 
 <p>Changes to the blockchain are append-only and are synchronized about every 10 minutes across thousands of nodes located all over the world over a P2P network. All information stored on the blockchain can be viewed publicly, in real-time.</p>
 
-<img src="/images/module1/img_p28_1.png" alt="Bitcoin technical description" />
+<img src="https://bpcdn.co/images/2019/02/27160006/toshi-jargon-overload.png" alt="Bitcoin technical description" style="background-color: white;" />
 
 <p>Cryptographic techniques such as public-key cryptography, hash functions, and digital signatures are used to keep the blockchain secure and immutable so it can be accessible to everybody but hackable to nobody.</p>
 
@@ -367,7 +367,7 @@ export const courseData: Module[] = [
 
 <p>But as you can clearly see, the crypto world is full of technical jargon!</p>
 
-<img src="/images/module1/img_p30_1.png" alt="Technical jargon illustration" />
+<img src="https://bpcdn.co/images/2022/02/16140629/crypto-jargon.png" alt="Technical jargon illustration" style="background-color: white;" />
 
 <h2>WTF am I reading?!</h2>
 
@@ -379,7 +379,7 @@ export const courseData: Module[] = [
 
 <p>Together, we will blast jargon into smithereens so you're able to easily speak the language of the crypto world with ease.</p>
 
-<img src="/images/module1/img_p32_1.png" alt="Jargon Blaster illustration" />
+<img src="https://bpcdn.co/images/2022/02/16134311/jargon-blaster.png" alt="Jargon Blaster illustration" style="background-color: white;" />
 
 <p>I've also found a lot of inconsistencies in how certain terms are used or defined on the interwebz.</p>
 
@@ -391,7 +391,7 @@ export const courseData: Module[] = [
 
 <p>How else will you impress your dinner date or wow a crowd at cocktail parties?</p>
 
-<img src="/images/module1/img_p34_1.png" alt="Cocktail party crypto talk" />
+<img src="https://bpcdn.co/images/2022/02/16161047/crypto-party.png" alt="Cocktail party crypto talk" style="background-color: white;" />
 
 <p>The hashrate on my nodes are huge!</p>
 
@@ -446,13 +446,13 @@ export const courseData: Module[] = [
 
 <p>In 2008, Bitcoin was created by a mysterious person calling himself, "Satoshi Nakamoto".</p>
 
-<img src="/images/module2/img_p1_1.png" alt="Satoshi Nakamoto Bitcoin creator" />
+<img src="https://bpcdn.co/images/2022/02/17161513/bitcoin-first-cryptocurrency-360x257.png" alt="Satoshi Nakamoto Bitcoin creator" style="background-color: white;" />
 
 <p>To this day, his true identity remains anonymous. Nobody knows (at least publicly) who Satoshi Nakamoto is.</p>
 
 <p>Since he's the creator of Bitcoin, I also like to call Satoshi Nakamoto the "Bitcoin God".</p>
 
-<img src="/images/module2/img_p2_1.png" alt="Bitcoin God illustration" />
+<img src="https://bpcdn.co/images/2022/02/16174359/bitcoin-god.png" alt="Bitcoin God illustration" style="background-color: white;" />
 
 <p>The Bitcoin God could be a man, woman, group of people, or even a highly intelligent space alien. Nobody knows!</p>
 
@@ -482,7 +482,7 @@ export const courseData: Module[] = [
 
 <p>Just kidding, The real message was, "I've moved on to other things." And then he disappeared, never to be heard from again.</p>
 
-<img src="/images/module2/img_p5_1.png" alt="Satoshi Nakamoto disappeared" />
+<img src="https://bpcdn.co/images/2022/03/23155811/satoshi-nakamoto-exits-360x360.png" alt="Satoshi Nakamoto disappeared" style="background-color: white;" />
 
 <p>And the rest is history.</p>
 
@@ -582,8 +582,8 @@ export const courseData: Module[] = [
 
 <h2>They are singing waterproof cupcakes!</h2>
 
-<img src="/images/module2/img_p13_1.png" alt="Singing waterproof cupcakes" />
-<img src="/images/module2/img_p13_2.png" alt="Cupcake illustration" />
+<img src="https://bpcdn.co/images/2022/02/16203447/ursula-the-baker.png" alt="Singing waterproof cupcakes" style="background-color: white;" />
+<img src="https://bpcdn.co/images/2022/02/16204226/singing-cupcake.png" alt="Cupcake illustration" style="background-color: white;" />
 
 <p>And each cupcake only cost $1. With air delivery, via unicorn, included for free.</p>
 
@@ -595,7 +595,7 @@ export const courseData: Module[] = [
 
 <p>Molly gives the $1 bill to Ursula.</p>
 
-<img src="/images/module2/img_p14_1.png" alt="Molly and Ursula cash transaction" />
+<img src="https://bpcdn.co/images/2019/02/26191559/cash-transaction1.png" alt="Molly and Ursula cash transaction" style="background-color: white;" />
 
 <p>The $1 bill is now physically owned by Ursula.</p>
 
@@ -625,7 +625,7 @@ export const courseData: Module[] = [
 
 <p>Buyers and sellers have to be physically present at the same location in order to transact in cash, which isn't always possible.</p>
 
-<img src="/images/module2/img_p16_1.png" alt="Physical cash problem illustration" />
+<img src="https://bpcdn.co/images/2022/02/16213224/face-to-face-transaction.png" alt="Physical cash problem illustration" style="background-color: white;" />
 
 <p>Since cash is physical, how do you transfer it online?</p>
 
@@ -639,7 +639,7 @@ export const courseData: Module[] = [
 
 <p>There's another problem.</p>
 
-<img src="/images/module2/img_p17_1.png" alt="Digital money problem illustration" />
+<img src="https://bpcdn.co/images/2022/02/16212319/digitize-cash-1.png" alt="Digital money problem illustration" style="background-color: white;" />
 
 <p>Molly wants to use cash because she already has some in her wallet. But if she wants to send cash electronically (in digital form), now she has to rely on a financial institution like a bank.</p>
 
@@ -657,7 +657,7 @@ export const courseData: Module[] = [
 
 <p>Or the bank may charge extra fees for non-local transactions.</p>
 
-<img src="/images/module2/img_p19_1.png" alt="Bank blocking transactions" />
+<img src="https://bpcdn.co/images/2022/02/16210226/shark-banker-263x360.png" alt="Bank blocking transactions" style="background-color: white;" />
 
 <p>Or even worse, the bank sees unicorns as evil, along with anybody who does business with unicorns as automatically evil also. So even though Molly is a mermaid, she's seen as "evil" because she's trying to buy cupcakes from a unicorn!</p>
 
@@ -667,7 +667,7 @@ export const courseData: Module[] = [
 
 <p>"Centralized" means one point or source of control.</p>
 
-<img src="/images/module2/img_p21_1.png" alt="Centralized bank control" />
+<img src="https://bpcdn.co/images/2019/02/26200955/bank-censorship.png" alt="Centralized bank control" style="background-color: white;" />
 
 <p>Molly just wants her cupcake and is frustrated.</p>
 
@@ -732,7 +732,7 @@ export const courseData: Module[] = [
 
 <p>For example, let's say you ran into the Gingerbread Man and were able to get a photo of it.</p>
 
-<img src="/images/module2/img_p26_1.png" alt="Gingerbread Man photo example" />
+<img src="https://bpcdn.co/images/2022/02/16222811/gingerbread-photo.png" alt="Gingerbread Man photo example" style="background-color: white;" />
 
 <p>You want to buy the photo from me so nobody else can have it.</p>
 
@@ -752,7 +752,7 @@ export const courseData: Module[] = [
 
 <p>Imagine if Molly scanned her one-dollar bill and named the digital image, "one-dollar.jpg".</p>
 
-<img src="/images/module2/img_p28_1.png" alt="Digital dollar copy problem" />
+<img src="https://bpcdn.co/images/2019/02/26203544/scan-money.png" alt="Digital dollar copy problem" style="background-color: white;" />
 
 <p>When something is in digital form, it's easy to copy and duplicate it…as many times as you want.</p>
 
@@ -762,19 +762,19 @@ export const courseData: Module[] = [
 
 <p>This issue is known as the "double spend" problem.</p>
 
-<img src="/images/module2/img_p29_1.png" alt="Double spend problem illustration" />
+<img src="https://bpcdn.co/images/2019/02/26204704/digital-transaction.png" alt="Double spend problem illustration" style="background-color: white;" />
 
 <h2>Electronic Payment</h2>
 
 <p>And if multiple people own the same exact "one-dollar.jpg" image file, then….who is the actual owner?</p>
 
-<img src="/images/module2/img_p30_1.png" alt="Ownership problem illustration" />
+<img src="https://bpcdn.co/images/2019/02/26205754/double-spending.png" alt="Ownership problem illustration" style="background-color: white;" />
 
 <h2>Digital Money and Ownership</h2>
 
 <p>If you're trying to spend money digitally, how can you prove that the money transferred is really gone from its original place? That there was an actual change in ownership?</p>
 
-<img src="/images/module2/img_p31_1.png" alt="Digital money ownership" />
+<img src="https://bpcdn.co/images/2019/02/26191559/cash-transaction1.png" alt="Digital money ownership" style="background-color: white;" />
 
 <p>If Molly gives Ursula $1, how can Molly prove that she wasn't then going to give the same $1 to somebody else?</p>
 
@@ -786,7 +786,7 @@ export const courseData: Module[] = [
 
 <p>Molly starts with $1 in her account, and Ursula has $0.</p>
 
-<img src="/images/module2/img_p33_1.png" alt="Bank payment illustration" />
+<img src="https://bpcdn.co/images/2019/02/27123547/bank-payment.png" alt="Bank payment illustration" style="background-color: white;" />
 
 <p>Molly tells the bank to transfer $1 to Ursula.</p>
 
@@ -808,7 +808,7 @@ export const courseData: Module[] = [
 
 <p>The bank uses a ledger.</p>
 
-<img src="/images/module2/img_p35_1.png" alt="Bank ledger illustration" />
+<img src="https://bpcdn.co/images/2019/02/27125657/bank-ledger.png" alt="Bank ledger illustration" style="background-color: white;" />
 
 <p>The ledger serves two functions:</p>
 
@@ -832,11 +832,11 @@ export const courseData: Module[] = [
 </tbody>
 </table>
 
-<img src="/images/module2/img_p37_1.png" alt="Payment ledger example" />
+<img src="https://bpcdn.co/images/2019/02/27131315/bank-payment-with-ledger.png" alt="Payment ledger example" style="background-color: white;" />
 
 <p>This prevents the double spending problem.</p>
 
-<img src="/images/module2/img_p38_1.png" alt="Double spending solved by bank" />
+<img src="https://bpcdn.co/images/2019/02/27143438/bitcoin-99-problems.png" alt="Double spending solved by bank" style="background-color: white;" />
 
 <p>For online transactions, without these intermediaries, we could theoretically just "copy and paste" money and it'd be impossible to know which transactions were legit or fraudulent.</p>
 
@@ -864,7 +864,7 @@ export const courseData: Module[] = [
 
 <h2>Prevent double spending. Stop relying on central authorities. PROBLEMS SOLVED!</h2>
 
-<img src="/images/module2/img_p41_1.png" alt="Bitcoin solves both problems" />
+<img src="https://bpcdn.co/images/2019/02/27142913/bitcoin-problems.png" alt="Bitcoin solves both problems" style="background-color: white;" />
 
 <p>Allowing money to move the way text messages or emails do between any two people and without any central intermediary requires a unique solution.</p>
 
@@ -914,7 +914,7 @@ export const courseData: Module[] = [
 
 <p>He went to work to create a brand new system that would do just that.</p>
 
-<img src="/images/module2/img_p45_1.png" alt="Centralized vs Decentralized system comparison" />
+<img src="https://bpcdn.co/images/2019/02/27144623/bitcoin-vs-banking-systems.png" alt="Centralized vs Decentralized system comparison" style="background-color: white;" />
 
 <p>This new system would be designed to manage the ownership and creation of its own unit of currency.</p>
 
@@ -926,7 +926,7 @@ export const courseData: Module[] = [
 
 <p>Since there are no banks, you would not need a bank account. All you would need is a "wallet" which anyone can create. (I'll discuss wallets in a later lesson.)</p>
 
-<img src="/images/module2/img_p47_1.png" alt="Fiat Currency vs Bitcoin comparison" />
+<img src="https://bpcdn.co/images/2019/02/27155900/fiat-vs-bitcoin1.png" alt="Fiat Currency vs Bitcoin comparison" style="background-color: white;" />
 
 <p>Although many of the concepts and technologies underlying Bitcoin already existed in 2008, no one had ever put all the pieces together.</p>
 
@@ -936,7 +936,7 @@ export const courseData: Module[] = [
 
 <p>Satoshi Nakamoto named this system, Bitcoin.</p>
 
-<img src="/images/module2/img_p48_1.png" alt="Bitcoin system created" />
+<img src="https://bpcdn.co/images/2022/03/17103252/bitcoin-name.png" alt="Bitcoin system created" style="background-color: white;" />
 
 <h2>Bitcoin vs. bitcoin?</h2>
 
