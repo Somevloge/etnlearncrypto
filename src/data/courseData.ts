@@ -1085,6 +1085,248 @@ export const courseData: Module[] = [
 
 <p>In the upcoming lessons, we'll explore each of these components in much greater detail. But now you have a solid high-level understanding of what the Bitcoin system is and how it all fits together.</p>
 `
+        },
+        {
+          title: "What is a Distributed Ledger?",
+          subtitle: "Understanding distributed ledgers and why they matter for Bitcoin.",
+          content: `
+<h1>What is a Distributed Ledger?</h1>
+
+<p>What is a distributed ledger?</p>
+
+<p>The first step to understanding how Bitcoin works is to become familiar with the concept of a "distributed ledger".</p>
+
+<p>In the previous lesson, I explained how Bitcoin is a new type of recordkeeping system that Satoshi Nakamoto created to be able to move money around on the internet.</p>
+
+<p>Bitcoin is a new kind of system that creates digital money designed to achieve two major goals:</p>
+
+<ul>
+<li>Prevent the double spending problem</li>
+<li>Achieve the first goal without a centralized financial institution like a bank.</li>
+</ul>
+
+<p>Bitcoin achieves these two goals by using an innovative approach on how it keeps a record of transactions and constantly maintains its accuracy.</p>
+
+<h2>What is a ledger?</h2>
+
+<p>In order to understand Bitcoin's approach, let's review how digital transactions work with a traditional bank.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17110721/online-bank-payment-1.png" alt="Online bank payment" style="background-color: white;" />
+
+<p>In order to prevent double spending, a ledger is needed.</p>
+
+<p>The ledger keeps track of account balances.</p>
+
+<p>Before Bitcoin, this ledger was always stored by a centralized financial institution like a bank.</p>
+
+<p>Let's dig a tad bit deeper into WHY a bank is even needed in the first place.</p>
+
+<p>A cool way to explain this is to show an example that attempts to perform a digital transaction without a bank and see how a potential sh*tshow can occur.</p>
+
+<p>Rather than rely on a bank, what if Ursula and Molly keep their own copy of the ledger on their own computers?</p>
+
+<p>This ledger is simply a text file stored on their computer's hard drive.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17112659/p2p-electronic-payment.png" alt="P2P electronic payment" style="background-color: white;" />
+
+<p>When Molly the Mermaid pays Ursula the Unicorn for her magical cupcakes, they both update their digital ledgers (the text file).</p>
+
+<p>If Ursula and Molly both trust each other and promise to keep their ledgers accurate, then this approach could work.</p>
+
+<p>But what if Ursula and Molly do NOT trust each other?</p>
+
+<p>What if Ursula is shady and edits her ledger to show that she never received payment from Molly and tries to ask for another $1?</p>
+
+<p>Imagine Ursula accusing Molly of not paying and showing proof by taking a screenshot of her ledger and sending it to Ned.</p>
+
+<p>Molly rejects her accusation and claims she is lying and shows proof by sending a screenshot of her ledger that clearly shows that $1 was transferred to her.</p>
+
+<p>Whose ledger is correct?!</p>
+
+<p>This will be a never-ending argument. They will never come to an agreement on who is telling the truth.</p>
+
+<p>This is why you need a trusted third party like a bank.</p>
+
+<p>The bank handles the record-keeping of transactions so all parties can agree on who really owns what.</p>
+
+<p>But we don't want to rely on a bank. We need a different solution.</p>
+
+<p>Here's an idea…</p>
+
+<p>What if they share the ledger with another friend?</p>
+
+<p>So let's add Pablo the Polar Bear.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17122628/pablo-bear.png" alt="Pablo the Polar Bear" style="background-color: white;" />
+
+<p>Now we have a network of three friends, instead of just two.</p>
+
+<p>When Molly pays Ursula, everyone's ledgers get updated at the same time.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17122256/simple-distributed-ledger.png" alt="Simple distributed ledger" style="background-color: white;" />
+
+<p>In this scenario, if Ursula tries to accuse Molly of not paying, by showing her ledger with a $0 balance, it will be different from Molly's and Pablo's ledgers.</p>
+
+<p>Ursula will have a tougher time proving she's right because Molly can ask Pablo to share his screenshot of the ledger with both of them.</p>
+
+<p>Two out of three ledgers show that Ursula has a $1 balance.</p>
+
+<p>Their ledgers do not agree with her ledger.</p>
+
+<p>Seeing that a majority of all ledgers show that Ursula has a $1 balance, Molly and Pablo come to a consensus and agree that their ledgers are the correct ones and Ursula's ledger is incorrect.</p>
+
+<p>Sensing defeat, Ursula confesses that she tampered with her ledger.</p>
+
+<p>Now everybody is in consensus that Molly really did transfer ownership of her $1 to Ursula, which means that Ursula does indeed have a $1 balance.</p>
+
+<p>In hopes that both Molly and Pablo would still buy cupcakes from her in the future and to win back their trust, she deletes her ledger and asks them for a copy of their version of the ledger so all three ledgers are back in sync.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17124944/distributed-ledgers-sync.png" alt="Distributed ledgers sync" style="background-color: white;" />
+
+<p>This is an example of a distributed ledger.</p>
+
+<p>Not just one person holds the ledger, it's distributed across multiple people in different locations.</p>
+
+<p>(Technically, since the ledger is stored on a computer, it's distributed across multiple computers which are owned by the people. 🤓)</p>
+
+<h2>What is a distributed ledger?</h2>
+
+<p>A distributed ledger works because everyone is holding a copy of the SAME ledger. The more trusted people that hold the ledger, the stronger it becomes.</p>
+
+<p>A "distributed ledger" is a ledger that is replicated and stored across multiple locations instead of a single central location.</p>
+
+<p>With a distributed ledger, there is no more need for a bank to keep records. Instead, everyone (collectively) is the bank!</p>
+
+<p>This is the approach that Bitcoin takes.</p>
+
+<p>The core idea behind Bitcoin was to create a single distributed ledger of transactions that is accessible to everyone, where anyone in the world can view balances and submit transactions at any time, but where the ledger is not controlled by any single person, corporation, or government.</p>
+
+<p>In other words, a "distributed ledger" that is "permissionless" and is maintained on a "decentralized" basis.</p>
+
+<p>In reality, this is easier said than done. Let's see why….</p>
+
+<p>In the example above, because they were all friends, Pablo the Panda held a copy of the ledger, even though he wasn't part of the transaction.</p>
+
+<p>Without him though, there would be no agreement on the correct ledger. And shady Ursula might attempt more dishonest transactions.</p>
+
+<p>But what if they weren't friends? Why would Pablo make the effort to store a copy of the ledger on his computer and help validate transactions with no benefit for himself?</p>
+
+<p>While keeping track of transactions on a distributed ledger with just three people on a network is pretty manageable, what if there are thousands of people who want to join the network and send each other money?</p>
+
+<p>You can start to imagine the challenge that arises.</p>
+
+<p>Bitcoin's network is entirely public, and anyone can participate. While a public ledger allows for many more participants. which potentially strengthens the ledger, it also opens itself up to more shady participants trying to corrupt the ledger.</p>
+
+<p>When a lot of people have a copy of the same ledger, it makes it hard to cheat. But it doesn't mean cheaters still won't try.</p>
+
+<p>Within those thousands of people, there are probably going to be a bunch of shady Ursulas so you're going to need a lot of Pablos to ensure an accurate ledger is used by everyone.</p>
+
+<p>What if there were more people like Ursula? What if there were thousands of shady Ursulas editing their ledgers?</p>
+
+<p>Unlike Ursula, Molly, and Pablo who may know and trust each other, with a totally open and public network like Bitcoin's, you pretty much can NOT trust anybody.</p>
+
+<p>So with a distributed ledger, the challenges are this:</p>
+
+<p>How do you incentivize other people who aren't making transactions to hold a copy of the ledger on their computer and constantly check to make sure transactions are accurate and nobody is cheating?</p>
+
+<p>And if you have copies of the same ledger floating around on a thousand different computers and no one is in charge, how do you make sure all copies are identical, are updated synchronously, and reflect only honest transactions?</p>
+
+<p>In other words, how do you get a bunch of people who don't know each other, who don't trust each other to coordinate and come to a consensus on which ledger is accurate and true?</p>
+
+<p>Consensus is defined as a general agreement on the answer to the following question:</p>
+
+<p>"Which version of the ledger does everyone follow?"</p>
+
+<p>With thousands of people all holding their own copy of the ledger, some of which, like Ursula, may have made malicious edits, what is the consensus mechanism needed to get everyone to agree on the "correct ledger" to keep a copy of and follow?</p>
+
+<p>What makes Bitcoin special is how it figured out how to get these thousands of computers to AGREE in real-time which ledger to hold.</p>
+
+<p>Satoshi Nakamoto figured out a technical solution to overcome these challenges of using a distributed ledger and it was considered a game-changer!</p>
+
+<p>In order to understand HOW, we'll need to look under the hood of Bitcoin. In the next lesson, we'll start with a high-level overview of the Bitcoin system.</p>
+`
+        },
+        {
+          title: "The Bitcoin System and Its Components",
+          subtitle: "A high-level overview of the Bitcoin system and its key components.",
+          content: `
+<h1>The Bitcoin System and Its Components</h1>
+
+<p>What is Bitcoin?</p>
+
+<p>While "Bitcoin" is usually mentioned as a cryptocurrency, it's more than that.</p>
+
+<p>Bitcoin is actually a system.</p>
+
+<p>Like with any system, the Bitcoin system is a collection of elements or components that work together as a whole.</p>
+
+<p>Let's take a look at the different components of Bitcoin.</p>
+
+<p>The Bitcoin system is basically just a bunch of computers that "talk" to each other over the internet.</p>
+
+<p>To be able to talk to each other, Bitcoin software is installed on each computer.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17163515/bitcoin-computer-360x360.png" alt="Bitcoin computer" style="background-color: white;" />
+
+<p>The Bitcoin software is open source which means anybody can look at the source code.</p>
+
+<p>Open source means that the software is not owned by anyone or any company. It is free to use and modify. Open source software is code that is designed to be publicly accessible. This means that anyone can see, modify, and distribute the code as they see fit.</p>
+
+<p>This software, known as the Bitcoin client, was created by Satoshi Nakamoto in late 2008.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17161907/developer-360x360.png" alt="Developer" style="background-color: white;" />
+
+<p>The original implementation of the software is now known as Bitcoin Core. Satoshi Nakamoto served as the original maintainer of Bitcoin Core until he disappeared in late 2010,</p>
+
+<p>Since then, a bunch of other individuals, called "Core developers" have taken over and now maintain the software.</p>
+
+<p>What does the software do? It runs the Bitcoin protocol.</p>
+
+<p>A protocol is a set of rules or procedures that govern a system. So the Bitcoin protocol is the set of rules that define how the Bitcoin system operates.</p>
+
+<p>For example, there's a rule that specifies a predetermined amount of bitcoins to ever be in circulation. Another example of a rule specifies what determines a transaction to be valid.</p>
+
+<p>This protocol, or rules, can be described in writing, but in Bitcoin's case, are expressed in computer code. This computer code is then compiled into software.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17162517/bitcoin-software-code-360x360.png" alt="Bitcoin software code" style="background-color: white;" />
+
+<p>Compiled just means that the human-readable computer code written by a programmer(s) is translated into computer-executable machine code.</p>
+
+<p>Anybody can download and install this software.</p>
+
+<p>Because Bitcoin Core's code is open source, there are now multiple implementations of Bitcoin's code. But Bitcoin Core remains the most popular, and used as the reference version by other Bitcoin software.</p>
+
+<p>Currently, this software is installed on thousands of computers spread out across the world.</p>
+
+<p>These computers are called Bitcoin nodes.</p>
+
+<p>If the computer ("node") is connected to the internet and starts running the software, it becomes part of the Bitcoin network.</p>
+
+<img src="https://bpcdn.co/images/2022/02/17162643/global-network-360x360.png" alt="Global network" style="background-color: white;" />
+
+<p>Once nodes are connected to the Bitcoin network, they start communicating and sharing information with each other.</p>
+
+<p>All right, let's list out components of the Bitcoin system that's been mentioned:</p>
+
+<ul>
+<li>Bitcoin software</li>
+<li>Bitcoin protocol</li>
+<li>Bitcoin nodes</li>
+<li>Bitcoin network</li>
+</ul>
+
+<p>We're still missing components, but no worries. all will be covered slowly in later lessons.</p>
+
+<p>For now, let's draw a "map" of the Bitcoin system of what you've learned so far.</p>
+
+<img src="https://bpcdn.co/images/2022/03/15215248/bitcoin-as-a-system-initial.png" alt="Bitcoin as a system" style="background-color: white;" />
+
+<p>The "map" looks pretty small right now but just you wait!</p>
+
+<p>As you learn more concepts, we will see it grow! Be prepared to be amazed! 😎</p>
+
+<p>Let's now learn more about the Bitcoin network.</p>
+`
         }
       ]
     },
