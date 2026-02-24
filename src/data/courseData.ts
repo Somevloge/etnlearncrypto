@@ -1564,7 +1564,408 @@ export const courseData: Module[] = [
   },
   {
     id: 4, icon: "Hash",
-    en: { title: "Beginner's Guide to Hashing", description: "In order to truly understand how Bitcoin and other cryptocurrencies work, it's crucial to first understand the concept of \"hashing\".", lessons: [] },
+    en: {
+      title: "Beginner's Guide to Hashing",
+      description: "In order to truly understand how Bitcoin and other cryptocurrencies work, it's crucial to first understand the concept of \"hashing\".",
+      lessons: [
+        {
+          title: "What is Hashing?",
+          subtitle: "In order to truly understand how Bitcoin and other cryptocurrencies work, it's crucial to first understand the concept of \"hashing\".",
+          content: `
+<h1>What is Hashing?</h1>
+
+<p>Before diving into the subject of Bitcoin mining, we need to take a quick detour and learn about a certain concept that's foundational to cryptocurrencies.</p>
+
+<p>In order to truly understand how Bitcoin and other cryptocurrencies work, it's crucial to first understand the concept of "<strong>hashing</strong>".</p>
+
+<p>When you see the word, "hash", some folks might think of hash browns, a popular American breakfast food, while other folks like Snoop Dogg, might think of the cannabis concentrate product. 🌿</p>
+
+<img src="https://bpcdn.co/images/2022/08/11120630/not-hashing.png" alt="Wrong kind of hash" style="background-color: white;" />
+
+<p>In this lesson, I will be talking about <strong>a different kind of hash</strong>!</p>
+
+<p>It's a technical concept, but one you must be familiar with so I will break it down for you nice and easy.</p>
+
+<p>Being familiar with the concept of hashing is also needed to <strong>understand how Bitcoin mining works</strong> (which is the next guide) so <strong>please don't skip over these lessons</strong>. 👁️</p>
+
+<h2>What is hashing?</h2>
+
+<p><strong>Hashing</strong> is a method of cryptography that converts any form of data into a unique string of text of fixed length.</p>
+
+<p><strong>Cryptography</strong> is the practice and study of techniques for secure communication from outside observers. In the internet era, cryptography is used to protect computer information or "data".</p>
+
+<p>If it wasn't already obvious, the "crypto" in cryptocurrencies stands for <em>cryptography</em>.</p>
+
+<p><strong>Hashing is a fundamental part of cryptography</strong>. And plays a huge role behind the "crypto" in cryptocurrencies.</p>
+
+<p>In simple terms, hashing means <strong>inputting text</strong> of ANY length through a <strong>hash function</strong> which produces an <strong>output of a FIXED length</strong>.</p>
+
+<img src="https://bpcdn.co/images/2022/02/14151523/hahs-function.png" alt="Hash Function" style="background-color: white;" />
+
+<p>Any piece of data can be "<strong>hashed</strong>", no matter its size, type, or length.</p>
+
+<p>The hash that is produced is <strong>always the same length</strong>.</p>
+
+<p>In the examples below, using the SHA-1 hash function, regardless of the length of the "input", the "output" is always <strong>40 characters long</strong>.</p>
+
+<img src="https://bpcdn.co/images/2022/02/14152139/hashing-example-hello.png" alt="Hashing Example - Hello" style="background-color: white;" />
+
+<img src="https://bpcdn.co/images/2022/02/14152638/hashing-example-babypips.png" alt="Hashing Example - BabyPips.com" style="background-color: white;" />
+
+<img src="https://bpcdn.co/images/2022/02/14152657/hashing-example-i.png" alt="Hashing Example - i" style="background-color: white;" />
+
+<p>Here's a quick comparison of the three examples:</p>
+
+<table>
+<tr><th>Input</th><th>Hash</th></tr>
+<tr><td>Hello</td><td>f7ff9e8b7bb2e09b70935a5d785e0cc5d9d0abf0</td></tr>
+<tr><td>BabyPips.com</td><td>8c8780d0b70c5ef42a534846cc042629cf07a440</td></tr>
+<tr><td>I</td><td>ca73ab65568cd125c2d27a22bbd9e863c10b675d</td></tr>
+</table>
+
+<p>Notice that even though the "inputs" varied, all three hashes were still <strong>40 characters long</strong>.</p>
+
+<p>In this specific example, the fixed length is 40 characters long, which is determined by the specific <strong>hash function</strong> used ("SHA-1"), which will be explained later.</p>
+
+<p>For now, just know that <em>other</em> hash functions may output different fixed lengths. Most have fixed lengths that are longer than 40 characters.</p>
+
+<h2>A hash acts as a digital fingerprint.</h2>
+
+<p>A unique piece of data will always produce the same hash.</p>
+
+<p>For example, if you run "Hello" a million times through a hash function, the above hash is what will appear a million times.</p>
+
+<p>For the word, "Hello", its SHA-1 hash will always be:</p>
+
+<p><code>f7ff9e8b7bb2e09b70935a5d785e0cc5d9d0abf0</code></p>
+
+<p>And only "Hello" will ever produce that hash.</p>
+
+<p>Any change to "Hello" even if it's just changing it to "hello" and the hash function will produce a <strong>totally different</strong> hash value.</p>
+
+<p>This is why hashes are known as digital "<strong>fingerprints</strong>".</p>
+
+<p>Just like your fingerprint is unique to you, a hash is unique to a specific input of data.</p>
+
+<img src="https://bpcdn.co/images/2022/03/24214236/fingerprint.png" alt="A hash is like a fingerprint" style="background-color: white;" />
+
+<h2>A hash can't be reversed.</h2>
+
+<p>The INPUT into a hash function is called a "<strong>preimage</strong>". But to keep things simple, I just stick with "input".</p>
+
+<p>The OUTPUT of the hash function is called "<strong>hash value</strong>" or "<strong>digest</strong>" or simply as a "<strong>hash</strong>".</p>
+
+<p>A hash function is designed to act in a <strong>one-way manner</strong>.</p>
+
+<img src="https://bpcdn.co/images/2022/02/14153349/hashing-example-irreversible.png" alt="Hash Function is One-Way" style="background-color: white;" />
+
+<p>Since a hash function is a one-way function, the output, the "hash", can't be used to reveal the input, the "preimage".</p>
+
+<p>This means that if all you see is the hash, you will NOT be able to decipher the original data (the "preimage") that the hash represents.</p>
+
+<p>Hash functions produce <strong>irreversible hashes.</strong></p>
+
+<p><strong>Irreversible</strong> means that if you only had the hash you couldn't use that to figure out what the original piece of data was. This allows the original data to remain <strong>secure and unknown</strong>.</p>
+
+<h2>What is a hash function?</h2>
+
+<p>A <strong>hash function</strong> is a <strong>mathematical operation</strong> that converts input data of <em>arbitrary</em> length into an output of <em>fixed</em> length that is executed using a certain <strong>algorithm</strong>.</p>
+
+<p>An <strong>algorithm</strong> is just a step-by-step set of instructions for performing calculations that are done by a software program.</p>
+
+<p>It doesn't matter if the input is a single letter, a word, a full sentence, a page from a book, or an entire book. That's the <em>arbitrary</em> part. Each input will produce a unique output expressed as an alphanumeric string of <em>fixed</em> length.</p>
+
+<p>Alphanumeric just means that something consists of both letters and numbers.</p>
+
+<p>A useful hash function <strong>conceals any clues about what the input may have looked like</strong>.</p>
+
+<p>For example, it needs to be impossible to determine whether the input was long or short or contained numbers or letters. Also, changing just one character in the input should result in a radically different output.</p>
+
+<h3>Popular Hash Functions</h3>
+
+<p>All hash functions work in a similar manner. You input data, and the hash function "scrambles" the data and outputs a hash.</p>
+
+<p>Common hash functions include:</p>
+
+<p><strong>MD-5:</strong> Message Digest 5 (MD5) is a common hash function. In the past, it was considered secure but nowadays, hackers have discovered how to decode the algorithm and are able to do so in seconds.</p>
+
+<p><strong>SHA:</strong> Secure Hash Algorithm (SHA) is another type of hash function. There are several variations of SHA grouped into four <em>families</em>: SHA-0, SHA-1, SHA-2, and SHA-3. In general, the higher the number, the more recent the release and the more secure the algorithm.</p>
+
+<h3>SHA-2 Family</h3>
+
+<p>For our purposes, the only hash function you need to know about right now is the <strong>Secure Hash Algorithm (SHA)</strong>. More specifically, the SHA-2 family since it contains a special member in the family named <strong>SHA-256</strong>.</p>
+
+<p>SHA-256 is a hash function that converts a string of text into another string that is always the same length: 64 alphanumeric characters long. This is equivalent to 256 bits, which is where the "256" in its name comes from.</p>
+
+<p>It's special because it's the hash function used in several parts of the Bitcoin system, which you'll learn about in later lessons. For now, it's important to just know that <strong>SHA-256 is a type of hash function and the one used by Bitcoin</strong>.</p>
+
+<p>Whether the input is a page from a Harry Potter book or the <em>entire</em> series of Harry Potter books, the output of the SHA-256 hash function will always be the SAME length displayed as <strong>64 alphanumeric characters</strong>.</p>
+
+<p>Let's now take a look at how hashing works in crypto.</p>
+`
+        },
+        {
+          title: "How Does Hashing Work?",
+          subtitle: "Hashing is a mathematical operation that is easy to perform, but extremely difficult to reverse. Learn how it all works.",
+          content: `
+<h1>How Does Hashing Work?</h1>
+
+<p>In the previous lesson, I introduced the concept of hashing and relevant terms. Now, let's learn how it works!</p>
+
+<p>Hashing is a mathematical operation that is <strong>easy to perform</strong>, but <strong>extremely difficult to reverse</strong>.</p>
+
+<p>The hashing process turns a piece of data into binary code, which is just a <strong>bunch of 0s and 1s</strong>.</p>
+
+<p>Then it breaks up the numbers and applies some secret "<strong>jumbling</strong>", which is done by something called the "hash function".</p>
+
+<h2>How does hashing work in crypto?</h2>
+
+<p>When used in Bitcoin and other cryptocurrencies, the end result is typically a <strong>64-digit long string of numbers and letters</strong>.</p>
+
+<p>Because the conversion is done by a cryptographic algorithm (the "hash function"), the jumbling formula is unknown so the 64-digit string can't be reversed.</p>
+
+<img src="https://bpcdn.co/images/2022/02/14154523/hashing-concept.png" alt="Hashing Concept" style="background-color: white;" />
+
+<p>A <strong>string</strong> is a sequence of characters.</p>
+
+<p>Strings are like sentences. They are formed by a combination of characters.</p>
+
+<img src="https://bpcdn.co/images/2022/02/14154836/hashing-string.png" alt="String" style="background-color: white;" />
+
+<p>Think of a hash as a bunch of <strong>random letters and numbers</strong>.</p>
+
+<h2>A unique piece of data will always produce the same hash.</h2>
+
+<p>For example, every time the string above is run through the hash function, it will <strong>always</strong> produce the same hash.</p>
+
+<p>But what happens if we make just a <strong>tiny change</strong> to the string? (Highlighted in yellow.)</p>
+
+<img src="https://bpcdn.co/images/2022/02/14155150/hashing-string-slight-change.png" alt="String Change" style="background-color: white;" />
+
+<p>The sentence ends with a <strong>question mark</strong> instead of a period.</p>
+
+<p>Even though it was a TINY change in the sentence, the hash is TOTALLY different.</p>
+
+<p>You can see how using hashes can be used to <strong>detect tampering</strong> since even a small change to that input to the hash function results in a totally different output.</p>
+
+<p>It's very important you remember this point because, in a later lesson, you'll see how this is used to prevent previous transactions from being tampered with.</p>
+
+<h2>The hash function is ONE-WAY only.</h2>
+
+<img src="https://bpcdn.co/images/2022/02/14155714/hashing-one-way-function.png" alt="The hash function is ONE-WAY only" style="background-color: white;" />
+
+<p>You can't take an existing hash and try to reverse it to find the input string.</p>
+
+<p>So if all you know is the hash, <strong>there's no way to know what the original input is</strong>. You can't "reverse engineer" or hack the hash.</p>
+
+<p>Lastly, the <strong>length</strong> of the output (the "hash") does NOT grow with an increase in information in the input. A hash function takes input data of ANY length and returns a value that has a FIXED length.</p>
+
+<img src="https://bpcdn.co/images/2022/02/14155918/hashing-harry-potter.png" alt="Hash Output is Fixed" style="background-color: white;" />
+
+<p>If you put the entire text of a Harry Potter book, which has over 76,000 words, the hash output will STILL only be 64 characters long.</p>
+
+<p>And again, if you misspell <strong>even a single letter</strong> in the Harry Potter book, and ran it through the hash function, it would produce a <strong>totally different hash</strong> from above.</p>
+
+<p>This would allow you to instantly know that the book had been modified without you having to manually inspect the entire book! Pretty neat huh?</p>
+`
+        },
+        {
+          title: "Examples of Hashing",
+          subtitle: "Let's look at some examples of hashing and see how the hashing process works using an actual hash function.",
+          content: `
+<h1>Examples of Hashing</h1>
+
+<p>So far, in earlier lessons, you've learned what hashing is and how hashing works.</p>
+
+<p>But in order to truly understand just what these specialized programs do, it's helpful to see actual examples in <strong>action</strong>!</p>
+
+<img src="https://bpcdn.co/images/2022/04/05164602/see-hashing-in-action-360x360.png" alt="See how hashing works!" style="background-color: white;" />
+
+<p>Let's see how the hashing process works using an actual <strong>hash function</strong>.</p>
+
+<p>Since <strong>SHA-256</strong> is the chosen hash function of Bitcoin, let's use it for our example.</p>
+
+<h2>1. Example Input</h2>
+
+<p>This is our first example input:</p>
+
+<p><code>BabyPips.com is cool as ice.</code></p>
+
+<p>When put through the SHA-256 hash function, this sentence creates the following hash value, also known as a "<strong>digest</strong>" or simply as a "<strong>hash</strong>":</p>
+
+<p><code>A58E12FAC905B8F84EA2F64F888191A4B66A67CC45F8E7B7B0F94C37A134CB57</code></p>
+
+<p>You can see that the digest is a combination of letters and numbers. And it is exactly 64 characters in length.</p>
+
+<p>Aside from that, there's really not much else you can learn from looking at this digest. There are no patterns or clues as to what the input is. It just looks like a bunch of gibberish.</p>
+
+<p>The output may seem random. But there's no way you could guess the input just by looking at the output.</p>
+
+<p>If you run the input through the SHA-256 hash function again, you will get the exact same output ("hash") again.</p>
+
+<p><strong>The same input will ALWAYS produce the same output.</strong></p>
+
+<p>Now, let's make one subtle change to the first example's input and see what happens:</p>
+
+<p><code>BabyPips.com is cool as lice.</code></p>
+
+<p>Notice that the letter "l" has been added to the beginning of the word "ice" to spell "lice".</p>
+
+<p>Here's the new digest:</p>
+
+<p><code>B8784EAEB1FC50719B2041FB1AEE30FF91516529CCB65B4B446CC4D5F6B4EB95</code></p>
+
+<p>Now let's compare the two:</p>
+
+<table>
+<tr><th>Input</th><th>Digest</th></tr>
+<tr><td>BabyPips.com is cool as ice.</td><td>A58E12FAC905B8F84EA2F64F888191A4B66A67CC45F8E7B7B0F94C37A134CB57</td></tr>
+<tr><td>BabyPips.com is cool as lice.</td><td>B8784EAEB1FC50719B2041FB1AEE30FF91516529CCB65B4B446CC4D5F6B4EB95</td></tr>
+</table>
+
+<p>You can see that this is a radically different result from the first digest!</p>
+
+<p>Even though the inputs were practically identical, changing a single character generated a completely <strong>different output</strong>.</p>
+
+<img src="https://bpcdn.co/images/2022/03/24170642/lice-is-cool-360x360.png" alt="Lice is so cool" style="background-color: white;" />
+
+<p>Lice are pretty disgusting so let's make one more change to the input:</p>
+
+<p><code>BabyPips.com is cool as rice.</code></p>
+
+<p>Now let's see what happens:</p>
+
+<p><code>FCA7032BE8CF7F3C0DD75B8DEB77412E452EA5E2275BAA4125123CD639ED2C9A</code></p>
+
+<p>A totally different input once again!</p>
+
+<p>Now let's compare all three:</p>
+
+<table>
+<tr><th>Input</th><th>Digest</th></tr>
+<tr><td>BabyPips.com is cool as ice.</td><td>A58E12FAC905B8F84EA2F64F888191A4B66A67CC45F8E7B7B0F94C37A134CB57</td></tr>
+<tr><td>BabyPips.com is cool as lice.</td><td>B8784EAEB1FC50719B2041FB1AEE30FF91516529CCB65B4B446CC4D5F6B4EB95</td></tr>
+<tr><td>BabyPips.com is cool as rice.</td><td>FCA7032BE8CF7F3C0DD75B8DEB77412E452EA5E2275BAA4125123CD639ED2C9A</td></tr>
+</table>
+
+<p>It's worth emphasizing that literally any input can be put into a hash function.</p>
+
+<p>Regardless of the length of the input, <strong>the output will always be the same fixed length and it will always appear completely random</strong>.</p>
+
+<h2>Try it out!</h2>
+
+<p>Create your own SHA-256 hash.</p>
+
+<p>Try making <strong>one tiny change</strong> to what you type in and notice how vastly different the hash is.</p>
+
+<p>Isn't that neat?! 🤓</p>
+
+<p>Congratulations! You've created your own hashes! 👏</p>
+`
+        },
+        {
+          title: "What Is Hashing Used For?",
+          subtitle: "What is the purpose of hashing? What exactly is hashing used for?",
+          content: `
+<h1>What Is Hashing Used For?</h1>
+
+<h2>What is the purpose of hashing?</h2>
+
+<p>The main purpose of hashing is to <strong>verify the integrity of a piece of data</strong>.</p>
+
+<p>Since the hash generated is UNIQUE to the input data, it acts as a unique "<strong>fingerprint</strong>" of the input data.</p>
+
+<p>This makes a hash useful for verifying the integrity of data sent through insecure communication channels like the internet. <strong>Data integrity just means that the data has not been altered in an unapproved way.</strong></p>
+
+<p>The hash value of received data can be compared to the hash value of data <em>before</em> it was sent to determine whether the data was altered.</p>
+
+<p>If I post both the message and the hash value I generated from it, you can generate a hash value from the message that you received and compare the hash values.</p>
+
+<p>Using a very <em>simple</em> example, let's say we're about to meet up for lunch, and right before I head out the door, I remember our last time together…</p>
+
+<img src="https://bpcdn.co/images/2022/06/13144008/body-odor-360x360.png" alt="Body odor" style="background-color: white;" />
+
+<p>While your personality was really nice, your smell was not nice at all. 😬</p>
+
+<p>So I want to send you a message, "<strong>Please wear deodorant.</strong>"</p>
+
+<p>But before I send this, I run it through a hash function (SHA-256). The hash is:</p>
+
+<p><code>33ebb528eab107766343d0ac591952bb68ee959d45b7a8b399628e662f3bc1ef</code></p>
+
+<p>I send you this hash <em>first</em>.*</p>
+
+<p>THEN I send you the actual text message.</p>
+
+<p>Once you receive my message, you think, "WTF? Did he really just say that to me? Or was the message intercepted during transit and the original message was altered?"</p>
+
+<img src="https://bpcdn.co/images/2022/06/06223327/armpit.png" alt="Armpit stinks" style="background-color: white;" />
+
+<p>So you run the message through the <strong>same hash function</strong>.</p>
+
+<p><code>33ebb528eab107766343d0ac591952bb68ee959d45b7a8b399628e662f3bc1ef</code></p>
+
+<p>You then compare your hash versus the hash that came before the text message.</p>
+
+<p>If both hash values are the same, then this proves that:</p>
+
+<ol>
+<li>The message was sent correctly.</li>
+<li>That your armpits really do stink!</li>
+<li>The message has not been deliberately altered by someone between me sending it to you and you receiving it.</li>
+</ol>
+
+<p>Of course, in the real world, it is our <strong>computers</strong> that do all this for us.</p>
+
+<p>And hopefully, you keep your armpits smelling fresh. 😅</p>
+
+<p>*Technically, before I send you the hash, it should be protected in some way, but I wanted to keep the example simple. How the hash stays protected during transit will be covered in a later lesson.</p>
+
+<h2>Real-World Example of Hashing: Online Passwords</h2>
+
+<p>This might surprise you, but you probably encounter hashing in your daily life….whenever you log in to check your email. 📧</p>
+
+<img src="https://bpcdn.co/images/2022/08/11125628/use-hashsing-to-login-email-284x360.png" alt="Email uses hashing" style="background-color: white;" />
+
+<p>When you create an email address and password, your email provider likely does not save your actual password.</p>
+
+<p>Instead, your email provider runs the password through a hash function and <strong>saves the <em>hash</em> of your password</strong>.</p>
+
+<p>Every time you attempt to log in to your email account, your email provider <strong>hashes the password YOU enter</strong> and <em>compares</em> this hash to the hash it has saved.</p>
+
+<p>Only <strong>when the two hashes match</strong> are you authorized to access your email.</p>
+
+<h3>Let's see why they do NOT save your actual password…</h3>
+
+<img src="https://bpcdn.co/images/2022/02/14164945/hashing-password-1.png" alt="Password in Plaintext" style="background-color: white;" />
+
+<p>If actual passwords are stored, and hackers get into their system, they can steal them. This is definitely not good for users who use the same password for multiple websites!</p>
+
+<p>A solution is to hash the password…</p>
+
+<img src="https://bpcdn.co/images/2022/02/14165031/hashing-password-2.png" alt="Hash Password" style="background-color: white;" />
+
+<p>By hashing a password, the company protects user information. Even if a hacker breaks into the system, they won't have access to actual passwords, just the hashes.</p>
+
+<p>Remember, hashes are <strong>irreversible</strong> so it's impossible for the hacker to figure out what the actual password is just by looking at the hash. Hashing ensures that the data is stored in a scrambled state, so it's harder to steal.</p>
+
+<img src="https://bpcdn.co/images/2022/02/14165134/hashing-password-3.png" alt="Password Hashed and Protected" style="background-color: white;" />
+
+<p>Whenever you log in, your email provider doesn't store the plain text password, all they need is the <strong>hash</strong>.</p>
+
+<p>When you enter your password, it is run through the hash function.</p>
+
+<p>The output is matched against the hash that is saved in the database.</p>
+
+<p>If the hash values are the same, the password is correct.</p>
+
+<p><strong>The wrong password entered would produce a different hash</strong> than the one saved. The hashes would NOT match, so your login attempt would FAIL.</p>
+
+<p>So as you can see, a hash function <strong>garbles data and makes it unreadable</strong>. Even if a hacker gains access to your email provider's server, the details stored can't be unscrambled.</p>
+`
+        }
+      ]
+    },
     am: { title: "የሃሺንግ መመሪያ", description: "ሃሺንግ ምንድነው ይማሩ።", lessons: [] }
   },
   {
